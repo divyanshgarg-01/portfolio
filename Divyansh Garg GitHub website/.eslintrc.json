@@ -1,0 +1,7 @@
+{
+  "extends": ["next/core-web-vitals", "next/typescript"],
+  "rules": {
+    "@next/next/no-img-element": "off"
+  },
+  "ignorePatterns": [".next/", "node_modules/", "data/", "public/uploads/", "next-env.d.ts", "playwright-report/", "test-results/"]
+}

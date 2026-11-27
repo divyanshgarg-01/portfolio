@@ -1,0 +1,61 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build output and generated files
+.next/
+out/
+dist/
+dist-ssr/
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+.eslintcache
+.turbo/
+.vercel/
+.cache/
+
+# Environment and secrets (keep only the committed template)
+.env
+.env.*
+.env*.local
+!.env.example
+
+# Local databases — development only (DATA_MODE=local)
+*.db
+*.db-shm
+*.db-wal
+data/*.db
+data/*.db-*
+
+# Local uploads — development only; hosted media lives in Supabase Storage
+public/uploads/*
+!public/uploads/.gitkeep
+# The CV is an intentional public static asset; CMS media is runtime-only.
+!public/uploads/resume/
+!public/uploads/resume/Divyansh_Garg_CV.pdf
+# Private local PDFs are served only through authorization routes
+private-uploads/
+
+# Source documents and browser captures used during local verification; not site assets
+/*.pdf
+certificates/
+screenshots/
+
+# Test and profiling artifacts
+playwright-report/
+test-results/
+blob-report/
+coverage/
+*.trace.zip
+
+# Backup checkpoints
+.backup_checkpoint_*/
+
+# OS, editor and logs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+npm-debug.log*
