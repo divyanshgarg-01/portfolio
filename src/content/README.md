@@ -1,7 +1,7 @@
 # Decap-editable content snapshot
 
 These JSON files are the published-content snapshot of the master Next.js portfolio.
-Decap CMS edits **these files** on `gh-pages-baseline`; the Vite app reads them through
+Decap CMS edits **these files** through the GitHub backend on `main`; the Vite app reads them through
 `src/data/portfolio.ts`. Do not hand-edit generated files unless you are also updating Decap's schema.
 
 Regenerate with:
@@ -10,7 +10,8 @@ Regenerate with:
 node scripts/export-snapshot.cjs
 ```
 
-The script opens the master SQLite database read-only (`MASTER_DB` overrides the default path)
+The script opens the master SQLite database inside this repository read-only
+(`MASTER_DB` and `MASTER_APP` may override the defaults but must resolve inside the repository)
 and only exports rows where `deleted_at IS NULL` and `visibility = 'published'`. Social links
 must also have `visible === true`. Stale JSON files in the collection folders are removed on
 re-run; files in other folders are untouched.

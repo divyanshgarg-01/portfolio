@@ -8,7 +8,7 @@ const { DatabaseSync } = require('node:sqlite');
 
 const WORKTREE = path.resolve(__dirname, '..');
 const CONTENT_DIR = path.join(WORKTREE, 'src', 'content');
-const DEFAULT_MASTER_APP = 'C:\\Users\\divya\\OneDrive\\Desktop\\Divyansh_Garg_Portfolio\\Divyansh Garg GitHub website';
+const DEFAULT_MASTER_APP = path.join(WORKTREE, 'Divyansh Garg GitHub website');
 
 const dbPath = process.env.MASTER_DB
   ? path.resolve(process.env.MASTER_DB)
@@ -16,6 +16,16 @@ const dbPath = process.env.MASTER_DB
 const masterApp = process.env.MASTER_APP
   ? path.resolve(process.env.MASTER_APP)
   : path.dirname(path.dirname(dbPath));
+
+function assertInsideRepository(target, label) {
+  const relative = path.relative(WORKTREE, target);
+  if (relative === '..' || relative.startsWith(`..${path.sep}`) || path.isAbsolute(relative)) {
+    throw new Error(`${label} must be inside this repository: ${target}`);
+  }
+}
+
+assertInsideRepository(dbPath, 'MASTER_DB');
+assertInsideRepository(masterApp, 'MASTER_APP');
 
 const COLLECTIONS = [
   { db: 'projects', folder: 'projects' },

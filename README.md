@@ -2,6 +2,8 @@
 
 A premium, database-backed portfolio and full content-management system for **Divyansh Garg**. The application is in [`Divyansh Garg GitHub website/`](./Divyansh%20Garg%20GitHub%20website/).
 
+> **Repository layout note:** the deployed application on this branch is the static GitHub Pages site built from the repository root with Vite, React and Decap CMS. The handover below describes the preserved Next.js/Supabase implementation in `Divyansh Garg GitHub website/`; it remains the design source of truth but is not what GitHub Pages serves. Deployed CMS setup and limitations are documented in [`docs/GITHUB_PAGES_CMS.md`](./docs/GITHUB_PAGES_CMS.md).
+
 **Handover status:** local implementation and verification are complete, but the project is **not deployment-ready**. Do not claim production readiness until Supabase integration testing (Auth, RLS role boundaries, Storage, revalidation and a hosted production-build smoke test) has passed. Live Supabase tests remain **owner-blocked** until the owner supplies credentials/project access and explicitly approves deployment. Seed content is deliberately labelled draft/placeholder and must not be treated as verified biography.
 
 ---

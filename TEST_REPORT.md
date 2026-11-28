@@ -7,7 +7,9 @@
 **Application audited:** `Divyansh Garg GitHub website/` (Next.js 15 App Router + CMS)  
 **Environment:** local Windows workspace, Node.js `v24.11.1`, Chromium via Playwright, `DATA_MODE=local` (SQLite)  
 **Final verification run:** 2026-11-27  
-**Deployment:** not performed
+**Deployment:** not performed for the Supabase/Vercel application; the static GitHub Pages implementation was deployed separately.
+
+> **Repository layout note:** this report covers the preserved Next.js/Supabase implementation in `Divyansh Garg GitHub website/`. The deployed root application is the static Vite/React/Decap site; its checks live in `npm test`, `npm run verify:build` and `npm run test:e2e` at the repository root. Statements below about untracked root Vite files or an untracked Pages workflow describe the historical audit state and no longer match the merged `origin/main` tree.
 
 ---
 
