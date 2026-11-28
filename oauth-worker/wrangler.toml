@@ -1,0 +1,6 @@
+name = "divyansh-portfolio-oauth"
+main = "worker.js"
+compatibility_date = "2026-11-28"
+
+[observability]
+enabled = false

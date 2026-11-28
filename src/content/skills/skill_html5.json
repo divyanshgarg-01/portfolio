@@ -1,0 +1,13 @@
+{
+  "id": "skill_html5",
+  "categoryId": "cat_web",
+  "name": "HTML5",
+  "note": "Learning / working knowledge.",
+  "featured": false,
+  "visibility": "published",
+  "order": 11,
+  "createdAt": "2026-11-26T19:42:08.991Z",
+  "updatedAt": "2026-11-26T23:25:50.908Z",
+  "publishedAt": "2026-11-26T23:25:50.908Z",
+  "deletedAt": null
+}

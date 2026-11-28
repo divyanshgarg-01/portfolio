@@ -1,0 +1,13 @@
+{
+  "id": "skill_machine-learning",
+  "categoryId": "cat_programming",
+  "name": "Machine Learning",
+  "note": "Learning / working knowledge.",
+  "featured": true,
+  "visibility": "published",
+  "order": 19,
+  "createdAt": "2026-11-26T19:42:08.991Z",
+  "updatedAt": "2026-11-26T23:25:50.908Z",
+  "publishedAt": "2026-11-26T23:25:50.908Z",
+  "deletedAt": null
+}

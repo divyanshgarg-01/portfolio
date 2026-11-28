@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.vite/
+*.tsbuildinfo
+playwright-report/
+test-results/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+
+# Local verification artifacts (kept on disk, not published in the repository)
+baseline/screenshots/
+comparison/static/
+comparison/diffs/

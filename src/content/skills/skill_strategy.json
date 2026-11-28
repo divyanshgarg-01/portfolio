@@ -1,0 +1,13 @@
+{
+  "id": "skill_strategy",
+  "categoryId": "cat_business",
+  "name": "Business strategy",
+  "note": "",
+  "featured": true,
+  "visibility": "published",
+  "order": 5,
+  "createdAt": "2026-11-25T22:56:29.555Z",
+  "updatedAt": "2026-11-26T23:25:50.908Z",
+  "publishedAt": "2026-11-25T22:56:29.555Z",
+  "deletedAt": null
+}

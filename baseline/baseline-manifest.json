@@ -1,0 +1,589 @@
+{
+  "capturedAt": "2026-11-27T21:25:07.929Z",
+  "sourceUrl": "http://localhost:3107/",
+  "gitHead": "dbefe5d8eb59371552df708e17284542d2b81228",
+  "buildId": "tap3GZj3o4NlqNdMxNr8o",
+  "note": "Master baseline captured from the untouched committed Next.js app using local ignored content/media.",
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 900,
+      "dpr": 1,
+      "reducedMotion": "no-preference",
+      "screenshots": [
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop--00-initial-load.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop--01-preloader.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop--02-hero-animating.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop--03-hero-final.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop--04-full-page.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop--section-hero.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop--section-marquee.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop--section-about.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop--section-education.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop--section-experience.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop--section-approach.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop--section-projects.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop--section-certifications.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop--section-skills.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop--section-achievements.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop--section-community.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop--section-contact.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop--section-footer.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop--state-nav-hover.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop--state-hero-cta-hover.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop--state-experience-accordion-open.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop--state-approach-second-tab.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop--state-project-filter-research.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop--state-project-search-pybe.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop--state-certification-rail-scrolled.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop--state-certificate-link-hover.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop--state-skills-second-group.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop--state-achievement-lightbox.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop--state-achievement-lightbox-closed.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop--state-terminal-open.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop--state-terminal-closed.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop--state-copy-email-feedback.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop--state-floating-cta-visible.png"
+      ],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "requestFailures": [
+        {
+          "url": "mailto:divyanshgarg.contact@gmail.com",
+          "failure": "net::ERR_ABORTED"
+        }
+      ],
+      "httpErrors": [],
+      "computed": {
+        "viewport": {
+          "width": 1440,
+          "height": 900,
+          "dpr": 1
+        },
+        "body": {
+          "background-color": "rgba(0, 0, 0, 0)",
+          "color": "rgb(229, 229, 231)",
+          "font-family": "Geist, system-ui, sans-serif, system-ui, sans-serif",
+          "font-size": "16px",
+          "overflow-x": "hidden"
+        },
+        "h1": {
+          "font-family": "Fraunces, \"Fraunces Fallback\", Georgia, serif, Georgia, serif",
+          "font-size": "204.48px",
+          "font-weight": "500",
+          "letter-spacing": "-9.2016px",
+          "color": "rgba(0, 0, 0, 0)"
+        },
+        "heroSub": {
+          "font-family": "Geist, system-ui, sans-serif, Geist, system-ui, sans-serif",
+          "font-size": "36px",
+          "line-height": "43.92px",
+          "color": "rgb(247, 247, 250)"
+        },
+        "nav": {
+          "background-color": "rgba(0, 0, 0, 0)",
+          "border-bottom-color": "rgba(0, 0, 0, 0)",
+          "padding-top": "0px",
+          "padding-bottom": "0px"
+        },
+        "certRail": {
+          "display": "flex",
+          "flex-wrap": "nowrap",
+          "overflow-x": "auto",
+          "gap": "20px"
+        },
+        "certCard": {
+          "width": "380px",
+          "min-width": "0px",
+          "padding": "0px",
+          "border-color": "rgb(43, 33, 27)",
+          "background-color": "rgb(12, 9, 8)"
+        },
+        "tagline": "Driven by curiosity. Grounded in data. Inspired by technology.",
+        "h1Text": "DIVYANSH GARG",
+        "sectionOrder": [
+          "top",
+          "marquee",
+          "about",
+          "education",
+          "experience",
+          "approach",
+          "projects",
+          "certifications",
+          "skills",
+          "achievements",
+          "community",
+          "contact"
+        ],
+        "certificateCount": 8,
+        "viewCertificateLinks": 8,
+        "verifyCredentialLinks": 7,
+        "fonts": {
+          "geist": true,
+          "geistMono": true,
+          "fraunces": true,
+          "instrumentSerif": true,
+          "playfair": true
+        },
+        "overflow": {
+          "scrollWidth": 1440,
+          "clientWidth": 1440
+        },
+        "motionReady": true,
+        "introPending": false,
+        "heroIntent": "particles-ready"
+      },
+      "assets": [
+        {
+          "path": "/uploads/resume/Divyansh_Garg_CV.pdf",
+          "status": 200,
+          "contentType": "application/pdf",
+          "ok": true
+        },
+        {
+          "path": "/api/certificates/bbc2496a-0a76-484c-b3d4-301ef6cb533f/file",
+          "status": 200,
+          "contentType": "application/pdf",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "name": "tablet",
+      "width": 834,
+      "height": 1112,
+      "dpr": 2,
+      "reducedMotion": "no-preference",
+      "screenshots": [
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\tablet--00-initial-load.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\tablet--01-preloader.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\tablet--02-hero-animating.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\tablet--03-hero-final.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\tablet--04-full-page.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\tablet--section-hero.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\tablet--section-marquee.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\tablet--section-about.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\tablet--section-education.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\tablet--section-experience.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\tablet--section-approach.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\tablet--section-projects.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\tablet--section-certifications.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\tablet--section-skills.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\tablet--section-achievements.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\tablet--section-community.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\tablet--section-contact.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\tablet--section-footer.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\tablet--state-hero-cta-hover.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\tablet--state-mobile-menu-open.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\tablet--state-mobile-menu-closed.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\tablet--state-experience-accordion-open.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\tablet--state-approach-second-tab.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\tablet--state-project-filter-research.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\tablet--state-project-search-pybe.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\tablet--state-certification-rail-scrolled.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\tablet--state-certificate-link-hover.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\tablet--state-skills-second-group.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\tablet--state-achievement-lightbox.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\tablet--state-achievement-lightbox-closed.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\tablet--state-terminal-open.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\tablet--state-terminal-closed.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\tablet--state-copy-email-feedback.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\tablet--state-floating-cta-visible.png"
+      ],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "requestFailures": [
+        {
+          "url": "mailto:divyanshgarg.contact@gmail.com",
+          "failure": "net::ERR_ABORTED"
+        }
+      ],
+      "httpErrors": [],
+      "computed": {
+        "viewport": {
+          "width": 834,
+          "height": 1112,
+          "dpr": 2
+        },
+        "body": {
+          "background-color": "rgba(0, 0, 0, 0)",
+          "color": "rgb(229, 229, 231)",
+          "font-family": "Geist, system-ui, sans-serif, system-ui, sans-serif",
+          "font-size": "16px",
+          "overflow-x": "hidden"
+        },
+        "h1": {
+          "font-family": "Fraunces, \"Fraunces Fallback\", Georgia, serif, Georgia, serif",
+          "font-size": "118.428px",
+          "font-weight": "500",
+          "letter-spacing": "-5.32926px",
+          "color": "rgba(0, 0, 0, 0)"
+        },
+        "heroSub": {
+          "font-family": "Geist, system-ui, sans-serif, Geist, system-ui, sans-serif",
+          "font-size": "24.8px",
+          "line-height": "30.256px",
+          "color": "rgb(247, 247, 250)"
+        },
+        "nav": {
+          "background-color": "rgba(0, 0, 0, 0)",
+          "border-bottom-color": "rgba(0, 0, 0, 0)",
+          "padding-top": "0px",
+          "padding-bottom": "0px"
+        },
+        "certRail": {
+          "display": "flex",
+          "flex-wrap": "nowrap",
+          "overflow-x": "auto",
+          "gap": "20px"
+        },
+        "certCard": {
+          "width": "280px",
+          "min-width": "0px",
+          "padding": "0px",
+          "border-color": "rgb(43, 33, 27)",
+          "background-color": "rgb(12, 9, 8)"
+        },
+        "tagline": "Driven by curiosity. Grounded in data. Inspired by technology.",
+        "h1Text": "DIVYANSH GARG",
+        "sectionOrder": [
+          "top",
+          "marquee",
+          "about",
+          "education",
+          "experience",
+          "approach",
+          "projects",
+          "certifications",
+          "skills",
+          "achievements",
+          "community",
+          "contact"
+        ],
+        "certificateCount": 8,
+        "viewCertificateLinks": 8,
+        "verifyCredentialLinks": 7,
+        "fonts": {
+          "geist": true,
+          "geistMono": true,
+          "fraunces": true,
+          "instrumentSerif": true,
+          "playfair": true
+        },
+        "overflow": {
+          "scrollWidth": 834,
+          "clientWidth": 834
+        },
+        "motionReady": true,
+        "introPending": false,
+        "heroIntent": "particles-ready"
+      },
+      "assets": [
+        {
+          "path": "/uploads/resume/Divyansh_Garg_CV.pdf",
+          "status": 200,
+          "contentType": "application/pdf",
+          "ok": true
+        },
+        {
+          "path": "/api/certificates/bbc2496a-0a76-484c-b3d4-301ef6cb533f/file",
+          "status": 200,
+          "contentType": "application/pdf",
+          "ok": true
+        }
+      ],
+      "interactionError_nav-hover": "TimeoutError: locator.hover: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('[data-nav-link]').first()\u001b[22m\n\u001b[2m    - locator resolved to <a class=\"roll\" href=\"#about\" data-roll=\"true\" data-cursor=\"Go\" data-roll-ready=\"1\" data-nav-link=\"true\">…</a>\u001b[22m\n\u001b[2m  - attempting hover action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    44 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying hover action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n"
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "dpr": 3,
+      "reducedMotion": "no-preference",
+      "screenshots": [
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\mobile--00-initial-load.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\mobile--01-preloader.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\mobile--02-hero-animating.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\mobile--03-hero-final.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\mobile--04-full-page.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\mobile--section-hero.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\mobile--section-marquee.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\mobile--section-about.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\mobile--section-education.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\mobile--section-experience.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\mobile--section-approach.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\mobile--section-projects.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\mobile--section-certifications.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\mobile--section-skills.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\mobile--section-achievements.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\mobile--section-community.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\mobile--section-contact.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\mobile--section-footer.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\mobile--state-hero-cta-hover.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\mobile--state-mobile-menu-open.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\mobile--state-mobile-menu-closed.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\mobile--state-experience-accordion-open.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\mobile--state-approach-second-tab.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\mobile--state-project-filter-research.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\mobile--state-project-search-pybe.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\mobile--state-certification-rail-scrolled.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\mobile--state-certificate-link-hover.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\mobile--state-skills-second-group.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\mobile--state-achievement-lightbox.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\mobile--state-achievement-lightbox-closed.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\mobile--state-terminal-open.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\mobile--state-terminal-closed.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\mobile--state-copy-email-feedback.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\mobile--state-floating-cta-visible.png"
+      ],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "requestFailures": [
+        {
+          "url": "mailto:divyanshgarg.contact@gmail.com",
+          "failure": "net::ERR_ABORTED"
+        }
+      ],
+      "httpErrors": [],
+      "computed": {
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "dpr": 3
+        },
+        "body": {
+          "background-color": "rgba(0, 0, 0, 0)",
+          "color": "rgb(229, 229, 231)",
+          "font-family": "Geist, system-ui, sans-serif, system-ui, sans-serif",
+          "font-size": "16px",
+          "overflow-x": "hidden"
+        },
+        "h1": {
+          "font-family": "Fraunces, \"Fraunces Fallback\", Georgia, serif, Georgia, serif",
+          "font-size": "54.4px",
+          "font-weight": "500",
+          "letter-spacing": "-2.72px",
+          "color": "rgba(0, 0, 0, 0)"
+        },
+        "heroSub": {
+          "font-family": "Geist, system-ui, sans-serif, Geist, system-ui, sans-serif",
+          "font-size": "22.23px",
+          "line-height": "29.3436px",
+          "color": "rgb(247, 247, 250)"
+        },
+        "nav": {
+          "background-color": "rgba(0, 0, 0, 0)",
+          "border-bottom-color": "rgba(0, 0, 0, 0)",
+          "padding-top": "0px",
+          "padding-bottom": "0px"
+        },
+        "certRail": {
+          "display": "flex",
+          "flex-wrap": "nowrap",
+          "overflow-x": "auto",
+          "gap": "12px"
+        },
+        "certCard": {
+          "width": "320px",
+          "min-width": "0px",
+          "padding": "0px",
+          "border-color": "rgb(43, 33, 27)",
+          "background-color": "rgb(12, 9, 8)"
+        },
+        "tagline": "Driven by curiosity. Grounded in data. Inspired by technology.",
+        "h1Text": "DIVYANSH GARG",
+        "sectionOrder": [
+          "top",
+          "marquee",
+          "about",
+          "education",
+          "experience",
+          "approach",
+          "projects",
+          "certifications",
+          "skills",
+          "achievements",
+          "community",
+          "contact"
+        ],
+        "certificateCount": 8,
+        "viewCertificateLinks": 8,
+        "verifyCredentialLinks": 7,
+        "fonts": {
+          "geist": true,
+          "geistMono": true,
+          "fraunces": true,
+          "instrumentSerif": true,
+          "playfair": true
+        },
+        "overflow": {
+          "scrollWidth": 390,
+          "clientWidth": 390
+        },
+        "motionReady": true,
+        "introPending": false,
+        "heroIntent": "particles-ready"
+      },
+      "assets": [
+        {
+          "path": "/uploads/resume/Divyansh_Garg_CV.pdf",
+          "status": 200,
+          "contentType": "application/pdf",
+          "ok": true
+        },
+        {
+          "path": "/api/certificates/bbc2496a-0a76-484c-b3d4-301ef6cb533f/file",
+          "status": 200,
+          "contentType": "application/pdf",
+          "ok": true
+        }
+      ],
+      "interactionError_nav-hover": "TimeoutError: locator.hover: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('[data-nav-link]').first()\u001b[22m\n\u001b[2m    - locator resolved to <a class=\"roll\" href=\"#about\" data-roll=\"true\" data-cursor=\"Go\" data-roll-ready=\"1\" data-nav-link=\"true\">…</a>\u001b[22m\n\u001b[2m  - attempting hover action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    53 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying hover action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n"
+    },
+    {
+      "name": "desktop-reduced-motion",
+      "width": 1440,
+      "height": 900,
+      "dpr": 1,
+      "reducedMotion": "reduce",
+      "screenshots": [
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop-reduced-motion--00-initial-load.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop-reduced-motion--01-preloader.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop-reduced-motion--02-hero-animating.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop-reduced-motion--03-hero-final.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop-reduced-motion--04-full-page.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop-reduced-motion--section-hero.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop-reduced-motion--section-marquee.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop-reduced-motion--section-about.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop-reduced-motion--section-education.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop-reduced-motion--section-experience.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop-reduced-motion--section-approach.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop-reduced-motion--section-projects.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop-reduced-motion--section-certifications.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop-reduced-motion--section-skills.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop-reduced-motion--section-achievements.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop-reduced-motion--section-community.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop-reduced-motion--section-contact.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop-reduced-motion--section-footer.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop-reduced-motion--state-nav-hover.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop-reduced-motion--state-hero-cta-hover.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop-reduced-motion--state-experience-accordion-open.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop-reduced-motion--state-approach-second-tab.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop-reduced-motion--state-project-filter-research.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop-reduced-motion--state-project-search-pybe.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop-reduced-motion--state-certification-rail-scrolled.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop-reduced-motion--state-certificate-link-hover.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop-reduced-motion--state-skills-second-group.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop-reduced-motion--state-achievement-lightbox.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop-reduced-motion--state-achievement-lightbox-closed.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop-reduced-motion--state-terminal-open.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop-reduced-motion--state-terminal-closed.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop-reduced-motion--state-copy-email-feedback.png",
+        "C:\\Users\\divya\\.local\\share\\opencode\\worktree\\19c5de\\gh-pages-baseline\\baseline\\screenshots\\desktop-reduced-motion--state-floating-cta-visible.png"
+      ],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "requestFailures": [
+        {
+          "url": "mailto:divyanshgarg.contact@gmail.com",
+          "failure": "net::ERR_ABORTED"
+        }
+      ],
+      "httpErrors": [],
+      "computed": {
+        "viewport": {
+          "width": 1440,
+          "height": 900,
+          "dpr": 1
+        },
+        "body": {
+          "background-color": "rgba(0, 0, 0, 0)",
+          "color": "rgb(229, 229, 231)",
+          "font-family": "Geist, system-ui, sans-serif, system-ui, sans-serif",
+          "font-size": "16px",
+          "overflow-x": "hidden"
+        },
+        "h1": {
+          "font-family": "Fraunces, \"Fraunces Fallback\", Georgia, serif, Georgia, serif",
+          "font-size": "204.48px",
+          "font-weight": "500",
+          "letter-spacing": "-9.2016px",
+          "color": "rgba(0, 0, 0, 0)"
+        },
+        "heroSub": {
+          "font-family": "Geist, system-ui, sans-serif, Geist, system-ui, sans-serif",
+          "font-size": "36px",
+          "line-height": "43.92px",
+          "color": "rgb(247, 247, 250)"
+        },
+        "nav": {
+          "background-color": "rgba(0, 0, 0, 0)",
+          "border-bottom-color": "rgba(0, 0, 0, 0)",
+          "padding-top": "0px",
+          "padding-bottom": "0px"
+        },
+        "certRail": {
+          "display": "flex",
+          "flex-wrap": "nowrap",
+          "overflow-x": "auto",
+          "gap": "20px"
+        },
+        "certCard": {
+          "width": "380px",
+          "min-width": "0px",
+          "padding": "0px",
+          "border-color": "rgb(43, 33, 27)",
+          "background-color": "rgb(12, 9, 8)"
+        },
+        "tagline": "Driven by curiosity. Grounded in data. Inspired by technology.",
+        "h1Text": "DIVYANSH GARG",
+        "sectionOrder": [
+          "top",
+          "marquee",
+          "about",
+          "education",
+          "experience",
+          "approach",
+          "projects",
+          "certifications",
+          "skills",
+          "achievements",
+          "community",
+          "contact"
+        ],
+        "certificateCount": 8,
+        "viewCertificateLinks": 8,
+        "verifyCredentialLinks": 7,
+        "fonts": {
+          "geist": true,
+          "geistMono": true,
+          "fraunces": true,
+          "instrumentSerif": true,
+          "playfair": true
+        },
+        "overflow": {
+          "scrollWidth": 1440,
+          "clientWidth": 1440
+        },
+        "motionReady": false,
+        "introPending": false,
+        "heroIntent": "particles-ready"
+      },
+      "assets": [
+        {
+          "path": "/uploads/resume/Divyansh_Garg_CV.pdf",
+          "status": 200,
+          "contentType": "application/pdf",
+          "ok": true
+        },
+        {
+          "path": "/api/certificates/bbc2496a-0a76-484c-b3d4-301ef6cb533f/file",
+          "status": 200,
+          "contentType": "application/pdf",
+          "ok": true
+        }
+      ]
+    }
+  ]
+}

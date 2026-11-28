@@ -1,0 +1,13 @@
+{
+  "id": "skill_data-cleaning",
+  "categoryId": "cat_data",
+  "name": "Data Cleaning",
+  "note": "Learning / working knowledge.",
+  "featured": false,
+  "visibility": "published",
+  "order": 16,
+  "createdAt": "2026-11-26T19:42:08.991Z",
+  "updatedAt": "2026-11-26T23:25:50.908Z",
+  "publishedAt": "2026-11-26T23:25:50.908Z",
+  "deletedAt": null
+}

@@ -1,0 +1,23 @@
+{
+  "id": "edu_iitm",
+  "degree": "BS in Management and Data Science",
+  "institution": "Indian Institute of Technology, Madras",
+  "location": "Chennai, India",
+  "period": "Undergraduate — currently pursuing",
+  "status": "Currently pursuing",
+  "details": "Confirm the exact programme name and expected graduation date before publishing.",
+  "coursework": [
+    "Mathematics",
+    "Statistics",
+    "Programming",
+    "Management"
+  ],
+  "achievementNote": "",
+  "featured": false,
+  "visibility": "published",
+  "order": 1,
+  "createdAt": "2026-11-25T22:56:29.555Z",
+  "updatedAt": "2026-11-25T22:56:29.555Z",
+  "publishedAt": "2026-11-25T22:56:29.555Z",
+  "deletedAt": null
+}

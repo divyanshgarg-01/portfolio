@@ -1,0 +1,13 @@
+{
+  "id": "skill_data-driven-decision-making",
+  "categoryId": "cat_business",
+  "name": "Data-Driven Decision Making",
+  "note": "Learning / working knowledge.",
+  "featured": false,
+  "visibility": "published",
+  "order": 27,
+  "createdAt": "2026-11-26T19:42:08.991Z",
+  "updatedAt": "2026-11-26T23:25:50.908Z",
+  "publishedAt": "2026-11-26T23:25:50.908Z",
+  "deletedAt": null
+}

@@ -1,0 +1,2074 @@
+{
+  "capturedAt": "2026-11-27T23:31:39.290Z",
+  "staticUrl": "http://localhost:4173/portfolio/",
+  "viewports": [
+    {
+      "name": "desktop",
+      "comparisons": [
+        {
+          "state": "00-initial-load",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 57192,
+          "ratio": 0.04412962962962963
+        },
+        {
+          "state": "01-preloader",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 53656,
+          "ratio": 0.041401234567901235
+        },
+        {
+          "state": "02-hero-animating",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 74078,
+          "ratio": 0.05715895061728395
+        },
+        {
+          "state": "03-hero-final",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 45481,
+          "ratio": 0.03509336419753086
+        },
+        {
+          "state": "04-full-page",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            12137
+          ],
+          "actual": [
+            1440,
+            12137
+          ],
+          "differentPixels": 42407,
+          "ratio": 0.0024264073128084005
+        },
+        {
+          "state": "section-hero",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 41167,
+          "ratio": 0.03176466049382716
+        },
+        {
+          "state": "section-marquee",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 3648,
+          "ratio": 0.0028148148148148147
+        },
+        {
+          "state": "section-about",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 113907,
+          "ratio": 0.08789120370370371
+        },
+        {
+          "state": "section-education",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 4465,
+          "ratio": 0.003445216049382716
+        },
+        {
+          "state": "section-experience",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 3695,
+          "ratio": 0.00285108024691358
+        },
+        {
+          "state": "section-approach",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 2842,
+          "ratio": 0.0021929012345679013
+        },
+        {
+          "state": "section-projects",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 3937,
+          "ratio": 0.0030378086419753088
+        },
+        {
+          "state": "section-certifications",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 1668,
+          "ratio": 0.001287037037037037
+        },
+        {
+          "state": "section-skills",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 6846,
+          "ratio": 0.0052824074074074075
+        },
+        {
+          "state": "section-achievements",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 5239,
+          "ratio": 0.004042438271604938
+        },
+        {
+          "state": "section-community",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 3850,
+          "ratio": 0.002970679012345679
+        },
+        {
+          "state": "section-contact",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 2515,
+          "ratio": 0.0019405864197530865
+        },
+        {
+          "state": "section-footer",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 1407,
+          "ratio": 0.001085648148148148
+        },
+        {
+          "state": "state-nav-hover",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 38058,
+          "ratio": 0.02936574074074074
+        },
+        {
+          "state": "state-hero-cta-hover",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 38515,
+          "ratio": 0.029718364197530864
+        },
+        {
+          "state": "state-experience-accordion-open",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 5691,
+          "ratio": 0.004391203703703704
+        },
+        {
+          "state": "state-approach-second-tab",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 3943,
+          "ratio": 0.0030424382716049384
+        },
+        {
+          "state": "state-project-filter-research",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 1730,
+          "ratio": 0.0013348765432098766
+        },
+        {
+          "state": "state-project-search-pybe",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 45715,
+          "ratio": 0.03527391975308642
+        },
+        {
+          "state": "state-certification-rail-scrolled",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 1599,
+          "ratio": 0.0012337962962962962
+        },
+        {
+          "state": "state-certificate-link-hover",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 1736,
+          "ratio": 0.0013395061728395062
+        },
+        {
+          "state": "state-skills-second-group",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 11916,
+          "ratio": 0.009194444444444444
+        },
+        {
+          "state": "state-achievement-lightbox",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 129255,
+          "ratio": 0.09973379629629629
+        },
+        {
+          "state": "state-achievement-lightbox-closed",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 129864,
+          "ratio": 0.1002037037037037
+        },
+        {
+          "state": "state-terminal-open",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 5693,
+          "ratio": 0.0043927469135802465
+        },
+        {
+          "state": "state-terminal-closed",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 20768,
+          "ratio": 0.01602469135802469
+        },
+        {
+          "state": "state-copy-email-feedback",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 66625,
+          "ratio": 0.05140817901234568
+        },
+        {
+          "state": "state-floating-cta-visible",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 1868,
+          "ratio": 0.0014413580246913581
+        }
+      ],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "httpErrors": [],
+      "requestFailures": [
+        {
+          "url": "mailto:divyanshgarg.contact@gmail.com",
+          "failure": "net::ERR_ABORTED"
+        }
+      ]
+    },
+    {
+      "name": "tablet",
+      "comparisons": [
+        {
+          "state": "00-initial-load",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1668,
+            2224
+          ],
+          "actual": [
+            1668,
+            2224
+          ],
+          "differentPixels": 16232,
+          "ratio": 0.00437563618170212
+        },
+        {
+          "state": "01-preloader",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1668,
+            2224
+          ],
+          "actual": [
+            1668,
+            2224
+          ],
+          "differentPixels": 195125,
+          "ratio": 0.05259955704501147
+        },
+        {
+          "state": "02-hero-animating",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1668,
+            2224
+          ],
+          "actual": [
+            1668,
+            2224
+          ],
+          "differentPixels": 120563,
+          "ratio": 0.03249998921725929
+        },
+        {
+          "state": "03-hero-final",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1668,
+            2224
+          ],
+          "actual": [
+            1668,
+            2224
+          ],
+          "differentPixels": 119585,
+          "ratio": 0.03223635120680434
+        },
+        {
+          "state": "04-full-page",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1668,
+            26348
+          ],
+          "actual": [
+            1668,
+            26348
+          ],
+          "differentPixels": 97270,
+          "ratio": 0.0022132741658502557
+        },
+        {
+          "state": "section-hero",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1668,
+            2224
+          ],
+          "actual": [
+            1668,
+            2224
+          ],
+          "differentPixels": 97479,
+          "ratio": 0.026277269551265463
+        },
+        {
+          "state": "section-marquee",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1668,
+            2224
+          ],
+          "actual": [
+            1668,
+            2224
+          ],
+          "differentPixels": 18596,
+          "ratio": 0.005012896157893828
+        },
+        {
+          "state": "section-about",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1668,
+            2224
+          ],
+          "actual": [
+            1668,
+            2224
+          ],
+          "differentPixels": 1654,
+          "ratio": 0.00044586632851991787
+        },
+        {
+          "state": "section-education",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1668,
+            2224
+          ],
+          "actual": [
+            1668,
+            2224
+          ],
+          "differentPixels": 12322,
+          "ratio": 0.0033216232769180338
+        },
+        {
+          "state": "section-experience",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1668,
+            2224
+          ],
+          "actual": [
+            1668,
+            2224
+          ],
+          "differentPixels": 8821,
+          "ratio": 0.002377863895933613
+        },
+        {
+          "state": "section-approach",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1668,
+            2224
+          ],
+          "actual": [
+            1668,
+            2224
+          ],
+          "differentPixels": 11590,
+          "ratio": 0.0031242991218535963
+        },
+        {
+          "state": "section-projects",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1668,
+            2224
+          ],
+          "actual": [
+            1668,
+            2224
+          ],
+          "differentPixels": 4052,
+          "ratio": 0.0010922916343184446
+        },
+        {
+          "state": "section-certifications",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1668,
+            2224
+          ],
+          "actual": [
+            1668,
+            2224
+          ],
+          "differentPixels": 13417,
+          "ratio": 0.0036168008039611475
+        },
+        {
+          "state": "section-skills",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1668,
+            2224
+          ],
+          "actual": [
+            1668,
+            2224
+          ],
+          "differentPixels": 10511,
+          "ratio": 0.0028334346910960442
+        },
+        {
+          "state": "section-achievements",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1668,
+            2224
+          ],
+          "actual": [
+            1668,
+            2224
+          ],
+          "differentPixels": 12568,
+          "ratio": 0.0033879371323085414
+        },
+        {
+          "state": "section-community",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1668,
+            2224
+          ],
+          "actual": [
+            1668,
+            2224
+          ],
+          "differentPixels": 11597,
+          "ratio": 0.0031261861014785296
+        },
+        {
+          "state": "section-contact",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1668,
+            2224
+          ],
+          "actual": [
+            1668,
+            2224
+          ],
+          "differentPixels": 6858,
+          "ratio": 0.001848700895398789
+        },
+        {
+          "state": "section-footer",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1668,
+            2224
+          ],
+          "actual": [
+            1668,
+            2224
+          ],
+          "differentPixels": 2732,
+          "ratio": 0.0007364611907596225
+        },
+        {
+          "state": "state-hero-cta-hover",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1668,
+            2224
+          ],
+          "actual": [
+            1668,
+            2224
+          ],
+          "differentPixels": 90959,
+          "ratio": 0.02451968281489916
+        },
+        {
+          "state": "state-mobile-menu-open",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1668,
+            2224
+          ],
+          "actual": [
+            1668,
+            2224
+          ],
+          "differentPixels": 424,
+          "ratio": 0.00011429705156737919
+        },
+        {
+          "state": "state-mobile-menu-closed",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1668,
+            2224
+          ],
+          "actual": [
+            1668,
+            2224
+          ],
+          "differentPixels": 96880,
+          "ratio": 0.026115798009074754
+        },
+        {
+          "state": "state-experience-accordion-open",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1668,
+            2224
+          ],
+          "actual": [
+            1668,
+            2224
+          ],
+          "differentPixels": 10084,
+          "ratio": 0.002718328933975122
+        },
+        {
+          "state": "state-approach-second-tab",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1668,
+            2224
+          ],
+          "actual": [
+            1668,
+            2224
+          ],
+          "differentPixels": 7545,
+          "ratio": 0.002033894467160085
+        },
+        {
+          "state": "state-project-filter-research",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1668,
+            2224
+          ],
+          "actual": [
+            1668,
+            2224
+          ],
+          "differentPixels": 2532,
+          "ratio": 0.000682547487190104
+        },
+        {
+          "state": "state-project-search-pybe",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1668,
+            2224
+          ],
+          "actual": [
+            1668,
+            2224
+          ],
+          "differentPixels": 3956,
+          "ratio": 0.0010664130566050757
+        },
+        {
+          "state": "state-certification-rail-scrolled",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1668,
+            2224
+          ],
+          "actual": [
+            1668,
+            2224
+          ],
+          "differentPixels": 6734,
+          "ratio": 0.0018152743991856875
+        },
+        {
+          "state": "state-certificate-link-hover",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1668,
+            2224
+          ],
+          "actual": [
+            1668,
+            2224
+          ],
+          "differentPixels": 6897,
+          "ratio": 0.001859214067594845
+        },
+        {
+          "state": "state-skills-second-group",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1668,
+            2224
+          ],
+          "actual": [
+            1668,
+            2224
+          ],
+          "differentPixels": 115085,
+          "ratio": 0.031023292876490177
+        },
+        {
+          "state": "state-achievement-lightbox",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1668,
+            2224
+          ],
+          "actual": [
+            1668,
+            2224
+          ],
+          "differentPixels": 429132,
+          "ratio": 0.11568047720097303
+        },
+        {
+          "state": "state-achievement-lightbox-closed",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1668,
+            2224
+          ],
+          "actual": [
+            1668,
+            2224
+          ],
+          "differentPixels": 429864,
+          "ratio": 0.11587780135603747
+        },
+        {
+          "state": "state-terminal-open",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1668,
+            2224
+          ],
+          "actual": [
+            1668,
+            2224
+          ],
+          "differentPixels": 2704,
+          "ratio": 0.00072891327225989
+        },
+        {
+          "state": "state-terminal-closed",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1668,
+            2224
+          ],
+          "actual": [
+            1668,
+            2224
+          ],
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        {
+          "state": "state-copy-email-feedback",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1668,
+            2224
+          ],
+          "actual": [
+            1668,
+            2224
+          ],
+          "differentPixels": 155759,
+          "ratio": 0.04198772277142315
+        },
+        {
+          "state": "state-floating-cta-visible",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1668,
+            2224
+          ],
+          "actual": [
+            1668,
+            2224
+          ],
+          "differentPixels": 3415,
+          "ratio": 0.0009205764884495281
+        }
+      ],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "httpErrors": [],
+      "requestFailures": [
+        {
+          "url": "mailto:divyanshgarg.contact@gmail.com",
+          "failure": "net::ERR_ABORTED"
+        }
+      ],
+      "interactionError_nav-hover": "TimeoutError: locator.hover: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('[data-nav-link]').first()\u001b[22m\n\u001b[2m    - locator resolved to <a class=\"roll\" href=\"#about\" data-roll=\"true\" data-cursor=\"Go\" data-roll-ready=\"1\" data-nav-link=\"true\">…</a>\u001b[22m\n\u001b[2m  - attempting hover action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    44 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying hover action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n"
+    },
+    {
+      "name": "mobile",
+      "comparisons": [
+        {
+          "state": "00-initial-load",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1170,
+            2532
+          ],
+          "actual": [
+            1170,
+            2532
+          ],
+          "differentPixels": 43661,
+          "ratio": 0.014738188790321492
+        },
+        {
+          "state": "01-preloader",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1170,
+            2532
+          ],
+          "actual": [
+            1170,
+            2532
+          ],
+          "differentPixels": 225792,
+          "ratio": 0.07621825252157005
+        },
+        {
+          "state": "02-hero-animating",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1170,
+            2532
+          ],
+          "actual": [
+            1170,
+            2532
+          ],
+          "differentPixels": 138385,
+          "ratio": 0.046713182376689484
+        },
+        {
+          "state": "03-hero-final",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1170,
+            2532
+          ],
+          "actual": [
+            1170,
+            2532
+          ],
+          "differentPixels": 130750,
+          "ratio": 0.04413591498899556
+        },
+        {
+          "state": "04-full-page",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1170,
+            47769
+          ],
+          "actual": [
+            1170,
+            47769
+          ],
+          "differentPixels": 67104,
+          "ratio": 0.001200649922624425
+        },
+        {
+          "state": "section-hero",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1170,
+            2532
+          ],
+          "actual": [
+            1170,
+            2532
+          ],
+          "differentPixels": 82579,
+          "ratio": 0.027875332496185578
+        },
+        {
+          "state": "section-marquee",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1170,
+            2532
+          ],
+          "actual": [
+            1170,
+            2532
+          ],
+          "differentPixels": 16954,
+          "ratio": 0.005722985106871363
+        },
+        {
+          "state": "section-about",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1170,
+            2532
+          ],
+          "actual": [
+            1170,
+            2532
+          ],
+          "differentPixels": 11560,
+          "ratio": 0.003902188736311959
+        },
+        {
+          "state": "section-education",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1170,
+            2532
+          ],
+          "actual": [
+            1170,
+            2532
+          ],
+          "differentPixels": 13477,
+          "ratio": 0.004549290449764384
+        },
+        {
+          "state": "section-experience",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1170,
+            2532
+          ],
+          "actual": [
+            1170,
+            2532
+          ],
+          "differentPixels": 14315,
+          "ratio": 0.004832165377189074
+        },
+        {
+          "state": "section-approach",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1170,
+            2532
+          ],
+          "actual": [
+            1170,
+            2532
+          ],
+          "differentPixels": 11777,
+          "ratio": 0.003975439165012625
+        },
+        {
+          "state": "section-projects",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1170,
+            2532
+          ],
+          "actual": [
+            1170,
+            2532
+          ],
+          "differentPixels": 8567,
+          "ratio": 0.002891872915569598
+        },
+        {
+          "state": "section-certifications",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1170,
+            2532
+          ],
+          "actual": [
+            1170,
+            2532
+          ],
+          "differentPixels": 3618,
+          "ratio": 0.0012212905577834489
+        },
+        {
+          "state": "section-skills",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1170,
+            2532
+          ],
+          "actual": [
+            1170,
+            2532
+          ],
+          "differentPixels": 13637,
+          "ratio": 0.0046032999824469015
+        },
+        {
+          "state": "section-achievements",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1170,
+            2532
+          ],
+          "actual": [
+            1170,
+            2532
+          ],
+          "differentPixels": 21074,
+          "ratio": 0.007113730573446214
+        },
+        {
+          "state": "section-community",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1170,
+            2532
+          ],
+          "actual": [
+            1170,
+            2532
+          ],
+          "differentPixels": 17407,
+          "ratio": 0.005875899596278743
+        },
+        {
+          "state": "section-contact",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1170,
+            2532
+          ],
+          "actual": [
+            1170,
+            2532
+          ],
+          "differentPixels": 4581,
+          "ratio": 0.0015463604326163567
+        },
+        {
+          "state": "section-footer",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1170,
+            2532
+          ],
+          "actual": [
+            1170,
+            2532
+          ],
+          "differentPixels": 547,
+          "ratio": 0.00018464508985836
+        },
+        {
+          "state": "state-hero-cta-hover",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1170,
+            2532
+          ],
+          "actual": [
+            1170,
+            2532
+          ],
+          "differentPixels": 84257,
+          "ratio": 0.02844175747019349
+        },
+        {
+          "state": "state-mobile-menu-open",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1170,
+            2532
+          ],
+          "actual": [
+            1170,
+            2532
+          ],
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        {
+          "state": "state-mobile-menu-closed",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1170,
+            2532
+          ],
+          "actual": [
+            1170,
+            2532
+          ],
+          "differentPixels": 82572,
+          "ratio": 0.027872969579130717
+        },
+        {
+          "state": "state-experience-accordion-open",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1170,
+            2532
+          ],
+          "actual": [
+            1170,
+            2532
+          ],
+          "differentPixels": 5733,
+          "ratio": 0.0019352290679304897
+        },
+        {
+          "state": "state-approach-second-tab",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1170,
+            2532
+          ],
+          "actual": [
+            1170,
+            2532
+          ],
+          "differentPixels": 4740,
+          "ratio": 0.0016000324057196095
+        },
+        {
+          "state": "state-project-filter-research",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1170,
+            2532
+          ],
+          "actual": [
+            1170,
+            2532
+          ],
+          "differentPixels": 2631,
+          "ratio": 0.000888119253048163
+        },
+        {
+          "state": "state-project-search-pybe",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1170,
+            2532
+          ],
+          "actual": [
+            1170,
+            2532
+          ],
+          "differentPixels": 162680,
+          "ratio": 0.054914192354950646
+        },
+        {
+          "state": "state-certification-rail-scrolled",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1170,
+            2532
+          ],
+          "actual": [
+            1170,
+            2532
+          ],
+          "differentPixels": 3561,
+          "ratio": 0.0012020496617653016
+        },
+        {
+          "state": "state-certificate-link-hover",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1170,
+            2532
+          ],
+          "actual": [
+            1170,
+            2532
+          ],
+          "differentPixels": 3513,
+          "ratio": 0.001185846801960546
+        },
+        {
+          "state": "state-skills-second-group",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1170,
+            2532
+          ],
+          "actual": [
+            1170,
+            2532
+          ],
+          "differentPixels": 86933,
+          "ratio": 0.02934506690430861
+        },
+        {
+          "state": "state-achievement-lightbox",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1170,
+            2532
+          ],
+          "actual": [
+            1170,
+            2532
+          ],
+          "differentPixels": 188882,
+          "ratio": 0.06375892845087158
+        },
+        {
+          "state": "state-achievement-lightbox-closed",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1170,
+            2532
+          ],
+          "actual": [
+            1170,
+            2532
+          ],
+          "differentPixels": 188676,
+          "ratio": 0.06368939117754284
+        },
+        {
+          "state": "state-terminal-open",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1170,
+            2532
+          ],
+          "actual": [
+            1170,
+            2532
+          ],
+          "differentPixels": 559,
+          "ratio": 0.00018869580480954887
+        },
+        {
+          "state": "state-terminal-closed",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1170,
+            2532
+          ],
+          "actual": [
+            1170,
+            2532
+          ],
+          "differentPixels": 0,
+          "ratio": 0
+        },
+        {
+          "state": "state-copy-email-feedback",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1170,
+            2532
+          ],
+          "actual": [
+            1170,
+            2532
+          ],
+          "differentPixels": 175618,
+          "ratio": 0.0592815381914908
+        },
+        {
+          "state": "state-floating-cta-visible",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1170,
+            2532
+          ],
+          "actual": [
+            1170,
+            2532
+          ],
+          "differentPixels": 3382,
+          "ratio": 0.0011416264970767341
+        }
+      ],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "httpErrors": [],
+      "requestFailures": [
+        {
+          "url": "mailto:divyanshgarg.contact@gmail.com",
+          "failure": "net::ERR_ABORTED"
+        }
+      ],
+      "interactionError_nav-hover": "TimeoutError: locator.hover: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('[data-nav-link]').first()\u001b[22m\n\u001b[2m    - locator resolved to <a class=\"roll\" href=\"#about\" data-roll=\"true\" data-cursor=\"Go\" data-roll-ready=\"1\" data-nav-link=\"true\">…</a>\u001b[22m\n\u001b[2m  - attempting hover action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    54 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying hover action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n"
+    },
+    {
+      "name": "desktop-reduced-motion",
+      "comparisons": [
+        {
+          "state": "00-initial-load",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 124280,
+          "ratio": 0.09589506172839506
+        },
+        {
+          "state": "01-preloader",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 24955,
+          "ratio": 0.0192554012345679
+        },
+        {
+          "state": "02-hero-animating",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 89082,
+          "ratio": 0.06873611111111111
+        },
+        {
+          "state": "03-hero-final",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 35334,
+          "ratio": 0.02726388888888889
+        },
+        {
+          "state": "04-full-page",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            12154
+          ],
+          "actual": [
+            1440,
+            12154
+          ],
+          "differentPixels": 35809,
+          "ratio": 0.0020460227999926865
+        },
+        {
+          "state": "section-hero",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 35321,
+          "ratio": 0.02725385802469136
+        },
+        {
+          "state": "section-marquee",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 2517,
+          "ratio": 0.0019421296296296296
+        },
+        {
+          "state": "section-about",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 2583,
+          "ratio": 0.0019930555555555556
+        },
+        {
+          "state": "section-education",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 5006,
+          "ratio": 0.0038626543209876545
+        },
+        {
+          "state": "section-experience",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 4303,
+          "ratio": 0.003320216049382716
+        },
+        {
+          "state": "section-approach",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 3192,
+          "ratio": 0.002462962962962963
+        },
+        {
+          "state": "section-projects",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 2451,
+          "ratio": 0.0018912037037037038
+        },
+        {
+          "state": "section-certifications",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 1954,
+          "ratio": 0.001507716049382716
+        },
+        {
+          "state": "section-skills",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 4612,
+          "ratio": 0.003558641975308642
+        },
+        {
+          "state": "section-achievements",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 5061,
+          "ratio": 0.0039050925925925924
+        },
+        {
+          "state": "section-community",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 3983,
+          "ratio": 0.0030733024691358027
+        },
+        {
+          "state": "section-contact",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 3239,
+          "ratio": 0.0024992283950617286
+        },
+        {
+          "state": "section-footer",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 1392,
+          "ratio": 0.001074074074074074
+        },
+        {
+          "state": "state-nav-hover",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 35321,
+          "ratio": 0.02725385802469136
+        },
+        {
+          "state": "state-hero-cta-hover",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 35321,
+          "ratio": 0.02725385802469136
+        },
+        {
+          "state": "state-experience-accordion-open",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 3754,
+          "ratio": 0.002896604938271605
+        },
+        {
+          "state": "state-approach-second-tab",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 3173,
+          "ratio": 0.0024483024691358025
+        },
+        {
+          "state": "state-project-filter-research",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 2038,
+          "ratio": 0.001572530864197531
+        },
+        {
+          "state": "state-project-search-pybe",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 2352,
+          "ratio": 0.001814814814814815
+        },
+        {
+          "state": "state-certification-rail-scrolled",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 1929,
+          "ratio": 0.001488425925925926
+        },
+        {
+          "state": "state-certificate-link-hover",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 1933,
+          "ratio": 0.0014915123456790123
+        },
+        {
+          "state": "state-skills-second-group",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 3712,
+          "ratio": 0.0028641975308641974
+        },
+        {
+          "state": "state-achievement-lightbox",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 5041,
+          "ratio": 0.0038896604938271607
+        },
+        {
+          "state": "state-achievement-lightbox-closed",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 5041,
+          "ratio": 0.0038896604938271607
+        },
+        {
+          "state": "state-terminal-open",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 5140,
+          "ratio": 0.003966049382716049
+        },
+        {
+          "state": "state-terminal-closed",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 26065,
+          "ratio": 0.020111882716049384
+        },
+        {
+          "state": "state-copy-email-feedback",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 102882,
+          "ratio": 0.07938425925925927
+        },
+        {
+          "state": "state-floating-cta-visible",
+          "status": "compared",
+          "mismatched": false,
+          "reference": [
+            1440,
+            900
+          ],
+          "actual": [
+            1440,
+            900
+          ],
+          "differentPixels": 1409,
+          "ratio": 0.0010871913580246914
+        }
+      ],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "httpErrors": [],
+      "requestFailures": [
+        {
+          "url": "mailto:divyanshgarg.contact@gmail.com",
+          "failure": "net::ERR_ABORTED"
+        }
+      ]
+    }
+  ]
+}

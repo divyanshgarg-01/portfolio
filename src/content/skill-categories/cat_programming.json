@@ -1,0 +1,13 @@
+{
+  "id": "cat_programming",
+  "title": "Artificial Intelligence & Machine Learning",
+  "description": "Applied AI and machine-learning concepts I am exploring and building with.",
+  "colourToken": "warm",
+  "featured": false,
+  "visibility": "published",
+  "order": 3,
+  "createdAt": "2026-11-25T22:56:29.555Z",
+  "updatedAt": "2026-11-26T23:25:50.908Z",
+  "publishedAt": "2026-11-25T22:56:29.555Z",
+  "deletedAt": null
+}
