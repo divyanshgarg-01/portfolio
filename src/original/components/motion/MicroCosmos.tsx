@@ -622,8 +622,16 @@ export function MicroCosmos({ density = 'medium' }: { density?: Density }) {
       document.fonts.ready.then(() => {
         if (!running || fontsRebuilt || !heroEl || !heroField) return;
         fontsRebuilt = true;
-        if (heroField.getProgress() > 0.02) return;
-        heroField.resize(heroEl.getBoundingClientRect(), dpr, mobile);
+        // The static bundle can mount before the underline has been activated
+        // and the display font has settled. The first resize can therefore
+        // cache a zero-width underline forever; in the Next.js build fonts are
+        // already ready before that guard can skip the corrective rebuild.
+        // resize() deliberately preserves the name/underline intro clock, but
+        // resets the canvas backing store, so redraw here for reduced motion
+        // (where no animation frame will follow).
+        const heroRect = heroEl.getBoundingClientRect();
+        heroField.resize(heroRect, dpr, mobile);
+        heroField.update(performance.now(), 16, heroRect);
       });
     }
     window.addEventListener('resize', onResize, { passive: true });
