@@ -1,0 +1,3603 @@
+{
+  "masterUrl": "http://127.0.0.1:3107/",
+  "staticUrl": "http://127.0.0.1:4173/portfolio/",
+  "viewports": [
+    {
+      "name": "desktop",
+      "differences": [
+        {
+          "path": "projectSearch.scrollY",
+          "master": 4968,
+          "static": 4949
+        },
+        {
+          "path": "projectSearch.sections[0].top",
+          "master": -4968,
+          "static": -4949
+        },
+        {
+          "path": "projectSearch.sections[1].top",
+          "master": -4068,
+          "static": -4049
+        },
+        {
+          "path": "projectSearch.sections[2].top",
+          "master": -4010.44,
+          "static": -3991.44
+        },
+        {
+          "path": "projectSearch.sections[3].top",
+          "master": -2606.58,
+          "static": -2587.58
+        },
+        {
+          "path": "projectSearch.sections[4].top",
+          "master": -1798.8,
+          "static": -1779.8
+        },
+        {
+          "path": "projectSearch.sections[5].top",
+          "master": -910.09,
+          "static": -891.09
+        },
+        {
+          "path": "projectSearch.sections[6].top",
+          "master": -45.47,
+          "static": -26.47
+        },
+        {
+          "path": "projectSearch.sections[7].top",
+          "master": 1158.19,
+          "static": 1177.19
+        },
+        {
+          "path": "projectSearch.sections[8].top",
+          "master": 2213.5,
+          "static": 2232.5
+        },
+        {
+          "path": "projectSearch.sections[9].top",
+          "master": 4235.44,
+          "static": 4254.44
+        },
+        {
+          "path": "projectSearch.sections[10].top",
+          "master": 4936.39,
+          "static": 4955.39
+        },
+        {
+          "path": "projectSearch.sections[11].top",
+          "master": 5538.31,
+          "static": 5557.31
+        },
+        {
+          "path": "copyEmail.scrollY",
+          "master": 10281,
+          "static": 10262
+        },
+        {
+          "path": "copyEmail.sections[0].top",
+          "master": -10281,
+          "static": -10262
+        },
+        {
+          "path": "copyEmail.sections[1].top",
+          "master": -9381,
+          "static": -9362
+        },
+        {
+          "path": "copyEmail.sections[2].top",
+          "master": -9323.44,
+          "static": -9304.44
+        },
+        {
+          "path": "copyEmail.sections[3].top",
+          "master": -7919.58,
+          "static": -7900.58
+        },
+        {
+          "path": "copyEmail.sections[4].top",
+          "master": -7111.8,
+          "static": -7092.8
+        },
+        {
+          "path": "copyEmail.sections[5].top",
+          "master": -6223.09,
+          "static": -6204.09
+        },
+        {
+          "path": "copyEmail.sections[6].top",
+          "master": -5358.47,
+          "static": -5339.47
+        },
+        {
+          "path": "copyEmail.sections[7].top",
+          "master": -4154.81,
+          "static": -4135.81
+        },
+        {
+          "path": "copyEmail.sections[8].top",
+          "master": -3099.5,
+          "static": -3080.5
+        },
+        {
+          "path": "copyEmail.sections[9].top",
+          "master": -1077.56,
+          "static": -1058.56
+        },
+        {
+          "path": "copyEmail.sections[10].top",
+          "master": -376.61,
+          "static": -357.61
+        },
+        {
+          "path": "copyEmail.sections[11].top",
+          "master": 225.31,
+          "static": 244.31
+        }
+      ],
+      "masterStates": {
+        "final": {
+          "scrollX": 0,
+          "scrollY": 0,
+          "introPending": false,
+          "motionReady": true,
+          "heroIntent": "particles-ready",
+          "dialogOpen": false,
+          "dialogTitle": "Certificate",
+          "dialogSrc": "",
+          "copyLabel": "Copy",
+          "searchValue": "",
+          "approach": [
+            {
+              "text": "01Frame the question",
+              "selected": "true",
+              "classes": "approach__tab is-active"
+            },
+            {
+              "text": "02Follow the evidence",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "03Build in the open",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "04Keep exploring",
+              "selected": "false",
+              "classes": "approach__tab"
+            }
+          ],
+          "filters": [
+            {
+              "text": "All work",
+              "classes": "archive__filter is-active"
+            },
+            {
+              "text": "Business & Analytics",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Research",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Cybersecurity & Forensic",
+              "classes": "archive__filter"
+            }
+          ],
+          "projectsShown": "3 / 3 SHOWN",
+          "mobileMenu": {
+            "open": "",
+            "visible": false
+          },
+          "sections": [
+            {
+              "id": "top",
+              "top": 0
+            },
+            {
+              "id": "marquee",
+              "top": 900
+            },
+            {
+              "id": "about",
+              "top": 957.56
+            },
+            {
+              "id": "education",
+              "top": 2361.42
+            },
+            {
+              "id": "experience",
+              "top": 3169.2
+            },
+            {
+              "id": "approach",
+              "top": 3869.69
+            },
+            {
+              "id": "projects",
+              "top": 4734.31
+            },
+            {
+              "id": "certifications",
+              "top": 6497.97
+            },
+            {
+              "id": "skills",
+              "top": 7553.28
+            },
+            {
+              "id": "achievements",
+              "top": 9575.22
+            },
+            {
+              "id": "community",
+              "top": 10276.17
+            },
+            {
+              "id": "contact",
+              "top": 10878.09
+            }
+          ],
+          "currently": "CURRENTLY —UnderGrad @ IIT MadrasIntern @ IIT RoparCoFounder @CynorvaCurrently: UnderGrad @ IIT Madras; Intern @ IIT Ropar; CoFounder @Cynorva"
+        },
+        "navHover": {
+          "scrollX": 0,
+          "scrollY": 0,
+          "introPending": false,
+          "motionReady": true,
+          "heroIntent": "particles-ready",
+          "dialogOpen": false,
+          "dialogTitle": "Certificate",
+          "dialogSrc": "",
+          "copyLabel": "Copy",
+          "searchValue": "",
+          "approach": [
+            {
+              "text": "01Frame the question",
+              "selected": "true",
+              "classes": "approach__tab is-active"
+            },
+            {
+              "text": "02Follow the evidence",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "03Build in the open",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "04Keep exploring",
+              "selected": "false",
+              "classes": "approach__tab"
+            }
+          ],
+          "filters": [
+            {
+              "text": "All work",
+              "classes": "archive__filter is-active"
+            },
+            {
+              "text": "Business & Analytics",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Research",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Cybersecurity & Forensic",
+              "classes": "archive__filter"
+            }
+          ],
+          "projectsShown": "3 / 3 SHOWN",
+          "mobileMenu": {
+            "open": "",
+            "visible": false
+          },
+          "sections": [
+            {
+              "id": "top",
+              "top": 0
+            },
+            {
+              "id": "marquee",
+              "top": 900
+            },
+            {
+              "id": "about",
+              "top": 957.56
+            },
+            {
+              "id": "education",
+              "top": 2361.42
+            },
+            {
+              "id": "experience",
+              "top": 3169.2
+            },
+            {
+              "id": "approach",
+              "top": 3869.69
+            },
+            {
+              "id": "projects",
+              "top": 4734.31
+            },
+            {
+              "id": "certifications",
+              "top": 6497.97
+            },
+            {
+              "id": "skills",
+              "top": 7553.28
+            },
+            {
+              "id": "achievements",
+              "top": 9575.22
+            },
+            {
+              "id": "community",
+              "top": 10276.17
+            },
+            {
+              "id": "contact",
+              "top": 10878.09
+            }
+          ],
+          "currently": "CURRENTLY —UnderGrad @ IIT MadrasIntern @ IIT RoparCoFounder @CynorvaCurrently: UnderGrad @ IIT Madras; Intern @ IIT Ropar; CoFounder @Cynorva"
+        },
+        "heroCtaHover": {
+          "scrollX": 0,
+          "scrollY": 0,
+          "introPending": false,
+          "motionReady": true,
+          "heroIntent": "particles-ready",
+          "dialogOpen": false,
+          "dialogTitle": "Certificate",
+          "dialogSrc": "",
+          "copyLabel": "Copy",
+          "searchValue": "",
+          "approach": [
+            {
+              "text": "01Frame the question",
+              "selected": "true",
+              "classes": "approach__tab is-active"
+            },
+            {
+              "text": "02Follow the evidence",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "03Build in the open",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "04Keep exploring",
+              "selected": "false",
+              "classes": "approach__tab"
+            }
+          ],
+          "filters": [
+            {
+              "text": "All work",
+              "classes": "archive__filter is-active"
+            },
+            {
+              "text": "Business & Analytics",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Research",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Cybersecurity & Forensic",
+              "classes": "archive__filter"
+            }
+          ],
+          "projectsShown": "3 / 3 SHOWN",
+          "mobileMenu": {
+            "open": "",
+            "visible": false
+          },
+          "sections": [
+            {
+              "id": "top",
+              "top": 0
+            },
+            {
+              "id": "marquee",
+              "top": 900
+            },
+            {
+              "id": "about",
+              "top": 957.56
+            },
+            {
+              "id": "education",
+              "top": 2361.42
+            },
+            {
+              "id": "experience",
+              "top": 3169.2
+            },
+            {
+              "id": "approach",
+              "top": 3869.69
+            },
+            {
+              "id": "projects",
+              "top": 4734.31
+            },
+            {
+              "id": "certifications",
+              "top": 6497.97
+            },
+            {
+              "id": "skills",
+              "top": 7553.28
+            },
+            {
+              "id": "achievements",
+              "top": 9575.22
+            },
+            {
+              "id": "community",
+              "top": 10276.17
+            },
+            {
+              "id": "contact",
+              "top": 10878.09
+            }
+          ],
+          "currently": "CURRENTLY —UnderGrad @ IIT MadrasIntern @ IIT RoparCoFounder @CynorvaCurrently: UnderGrad @ IIT Madras; Intern @ IIT Ropar; CoFounder @Cynorva"
+        },
+        "experienceAccordion": {
+          "scrollX": 0,
+          "scrollY": 3169,
+          "introPending": false,
+          "motionReady": true,
+          "heroIntent": "particles-ready",
+          "dialogOpen": false,
+          "dialogTitle": "Certificate",
+          "dialogSrc": "",
+          "copyLabel": "Copy",
+          "searchValue": "",
+          "approach": [
+            {
+              "text": "01Frame the question",
+              "selected": "true",
+              "classes": "approach__tab is-active"
+            },
+            {
+              "text": "02Follow the evidence",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "03Build in the open",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "04Keep exploring",
+              "selected": "false",
+              "classes": "approach__tab"
+            }
+          ],
+          "filters": [
+            {
+              "text": "All work",
+              "classes": "archive__filter is-active"
+            },
+            {
+              "text": "Business & Analytics",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Research",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Cybersecurity & Forensic",
+              "classes": "archive__filter"
+            }
+          ],
+          "projectsShown": "3 / 3 SHOWN",
+          "mobileMenu": {
+            "open": "",
+            "visible": false
+          },
+          "sections": [
+            {
+              "id": "top",
+              "top": -3169
+            },
+            {
+              "id": "marquee",
+              "top": -2269
+            },
+            {
+              "id": "about",
+              "top": -2211.44
+            },
+            {
+              "id": "education",
+              "top": -807.58
+            },
+            {
+              "id": "experience",
+              "top": 0.2
+            },
+            {
+              "id": "approach",
+              "top": 888.91
+            },
+            {
+              "id": "projects",
+              "top": 1753.53
+            },
+            {
+              "id": "certifications",
+              "top": 3517.19
+            },
+            {
+              "id": "skills",
+              "top": 4572.5
+            },
+            {
+              "id": "achievements",
+              "top": 6594.44
+            },
+            {
+              "id": "community",
+              "top": 7295.39
+            },
+            {
+              "id": "contact",
+              "top": 7897.31
+            }
+          ],
+          "currently": "CURRENTLY —UnderGrad @ IIT MadrasIntern @ IIT RoparCoFounder @CynorvaCurrently: UnderGrad @ IIT Madras; Intern @ IIT Ropar; CoFounder @Cynorva"
+        },
+        "approachTab": {
+          "scrollX": 0,
+          "scrollY": 4058,
+          "introPending": false,
+          "motionReady": true,
+          "heroIntent": "particles-ready",
+          "dialogOpen": false,
+          "dialogTitle": "Certificate",
+          "dialogSrc": "",
+          "copyLabel": "Copy",
+          "searchValue": "",
+          "approach": [
+            {
+              "text": "01Frame the question",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "02Follow the evidence",
+              "selected": "true",
+              "classes": "approach__tab is-active"
+            },
+            {
+              "text": "03Build in the open",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "04Keep exploring",
+              "selected": "false",
+              "classes": "approach__tab"
+            }
+          ],
+          "filters": [
+            {
+              "text": "All work",
+              "classes": "archive__filter is-active"
+            },
+            {
+              "text": "Business & Analytics",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Research",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Cybersecurity & Forensic",
+              "classes": "archive__filter"
+            }
+          ],
+          "projectsShown": "3 / 3 SHOWN",
+          "mobileMenu": {
+            "open": "",
+            "visible": false
+          },
+          "sections": [
+            {
+              "id": "top",
+              "top": -4058
+            },
+            {
+              "id": "marquee",
+              "top": -3158
+            },
+            {
+              "id": "about",
+              "top": -3100.44
+            },
+            {
+              "id": "education",
+              "top": -1696.58
+            },
+            {
+              "id": "experience",
+              "top": -888.8
+            },
+            {
+              "id": "approach",
+              "top": -0.09
+            },
+            {
+              "id": "projects",
+              "top": 864.53
+            },
+            {
+              "id": "certifications",
+              "top": 2628.19
+            },
+            {
+              "id": "skills",
+              "top": 3683.5
+            },
+            {
+              "id": "achievements",
+              "top": 5705.44
+            },
+            {
+              "id": "community",
+              "top": 6406.39
+            },
+            {
+              "id": "contact",
+              "top": 7008.31
+            }
+          ],
+          "currently": "CURRENTLY —UnderGrad @ IIT MadrasIntern @ IIT RoparCoFounder @CynorvaCurrently: UnderGrad @ IIT Madras; Intern @ IIT Ropar; CoFounder @Cynorva"
+        },
+        "projectFilter": {
+          "scrollX": 0,
+          "scrollY": 5426,
+          "introPending": false,
+          "motionReady": true,
+          "heroIntent": "particles-ready",
+          "dialogOpen": false,
+          "dialogTitle": "Certificate",
+          "dialogSrc": "",
+          "copyLabel": "Copy",
+          "searchValue": "",
+          "approach": [
+            {
+              "text": "01Frame the question",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "02Follow the evidence",
+              "selected": "true",
+              "classes": "approach__tab is-active"
+            },
+            {
+              "text": "03Build in the open",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "04Keep exploring",
+              "selected": "false",
+              "classes": "approach__tab"
+            }
+          ],
+          "filters": [
+            {
+              "text": "All work",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Business & Analytics",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Research",
+              "classes": "archive__filter is-active"
+            },
+            {
+              "text": "Cybersecurity & Forensic",
+              "classes": "archive__filter"
+            }
+          ],
+          "projectsShown": "1 / 3 SHOWN",
+          "mobileMenu": {
+            "open": "",
+            "visible": false
+          },
+          "sections": [
+            {
+              "id": "top",
+              "top": -5426
+            },
+            {
+              "id": "marquee",
+              "top": -4526
+            },
+            {
+              "id": "about",
+              "top": -4468.44
+            },
+            {
+              "id": "education",
+              "top": -3064.58
+            },
+            {
+              "id": "experience",
+              "top": -2256.8
+            },
+            {
+              "id": "approach",
+              "top": -1368.09
+            },
+            {
+              "id": "projects",
+              "top": -503.47
+            },
+            {
+              "id": "certifications",
+              "top": 1263.19
+            },
+            {
+              "id": "skills",
+              "top": 2318.5
+            },
+            {
+              "id": "achievements",
+              "top": 4340.44
+            },
+            {
+              "id": "community",
+              "top": 5041.39
+            },
+            {
+              "id": "contact",
+              "top": 5643.31
+            }
+          ],
+          "currently": "CURRENTLY —UnderGrad @ IIT MadrasIntern @ IIT RoparCoFounder @CynorvaCurrently: UnderGrad @ IIT Madras; Intern @ IIT Ropar; CoFounder @Cynorva"
+        },
+        "projectSearch": {
+          "scrollX": 0,
+          "scrollY": 4968,
+          "introPending": false,
+          "motionReady": true,
+          "heroIntent": "particles-ready",
+          "dialogOpen": false,
+          "dialogTitle": "Certificate",
+          "dialogSrc": "",
+          "copyLabel": "Copy",
+          "searchValue": "PyBe",
+          "approach": [
+            {
+              "text": "01Frame the question",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "02Follow the evidence",
+              "selected": "true",
+              "classes": "approach__tab is-active"
+            },
+            {
+              "text": "03Build in the open",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "04Keep exploring",
+              "selected": "false",
+              "classes": "approach__tab"
+            }
+          ],
+          "filters": [
+            {
+              "text": "All work",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Business & Analytics",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Research",
+              "classes": "archive__filter is-active"
+            },
+            {
+              "text": "Cybersecurity & Forensic",
+              "classes": "archive__filter"
+            }
+          ],
+          "projectsShown": "0 / 3 SHOWN",
+          "mobileMenu": {
+            "open": "",
+            "visible": false
+          },
+          "sections": [
+            {
+              "id": "top",
+              "top": -4968
+            },
+            {
+              "id": "marquee",
+              "top": -4068
+            },
+            {
+              "id": "about",
+              "top": -4010.44
+            },
+            {
+              "id": "education",
+              "top": -2606.58
+            },
+            {
+              "id": "experience",
+              "top": -1798.8
+            },
+            {
+              "id": "approach",
+              "top": -910.09
+            },
+            {
+              "id": "projects",
+              "top": -45.47
+            },
+            {
+              "id": "certifications",
+              "top": 1158.19
+            },
+            {
+              "id": "skills",
+              "top": 2213.5
+            },
+            {
+              "id": "achievements",
+              "top": 4235.44
+            },
+            {
+              "id": "community",
+              "top": 4936.39
+            },
+            {
+              "id": "contact",
+              "top": 5538.31
+            }
+          ],
+          "currently": "CURRENTLY —UnderGrad @ IIT MadrasIntern @ IIT RoparCoFounder @CynorvaCurrently: UnderGrad @ IIT Madras; Intern @ IIT Ropar; CoFounder @Cynorva"
+        },
+        "certRailScrolled": {
+          "scrollX": 0,
+          "scrollY": 6126,
+          "introPending": false,
+          "motionReady": true,
+          "heroIntent": "particles-ready",
+          "dialogOpen": false,
+          "dialogTitle": "Certificate",
+          "dialogSrc": "",
+          "copyLabel": "Copy",
+          "searchValue": "PyBe",
+          "approach": [
+            {
+              "text": "01Frame the question",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "02Follow the evidence",
+              "selected": "true",
+              "classes": "approach__tab is-active"
+            },
+            {
+              "text": "03Build in the open",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "04Keep exploring",
+              "selected": "false",
+              "classes": "approach__tab"
+            }
+          ],
+          "filters": [
+            {
+              "text": "All work",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Business & Analytics",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Research",
+              "classes": "archive__filter is-active"
+            },
+            {
+              "text": "Cybersecurity & Forensic",
+              "classes": "archive__filter"
+            }
+          ],
+          "projectsShown": "0 / 3 SHOWN",
+          "mobileMenu": {
+            "open": "",
+            "visible": false
+          },
+          "sections": [
+            {
+              "id": "top",
+              "top": -6126
+            },
+            {
+              "id": "marquee",
+              "top": -5226
+            },
+            {
+              "id": "about",
+              "top": -5168.44
+            },
+            {
+              "id": "education",
+              "top": -3764.58
+            },
+            {
+              "id": "experience",
+              "top": -2956.8
+            },
+            {
+              "id": "approach",
+              "top": -2068.09
+            },
+            {
+              "id": "projects",
+              "top": -1203.47
+            },
+            {
+              "id": "certifications",
+              "top": 0.19
+            },
+            {
+              "id": "skills",
+              "top": 1055.5
+            },
+            {
+              "id": "achievements",
+              "top": 3077.44
+            },
+            {
+              "id": "community",
+              "top": 3778.39
+            },
+            {
+              "id": "contact",
+              "top": 4380.31
+            }
+          ],
+          "currently": "CURRENTLY —UnderGrad @ IIT MadrasIntern @ IIT RoparCoFounder @CynorvaCurrently: UnderGrad @ IIT Madras; Intern @ IIT Ropar; CoFounder @Cynorva"
+        },
+        "certificateLinkHover": {
+          "scrollX": 0,
+          "scrollY": 6126,
+          "introPending": false,
+          "motionReady": true,
+          "heroIntent": "particles-ready",
+          "dialogOpen": false,
+          "dialogTitle": "Certificate",
+          "dialogSrc": "",
+          "copyLabel": "Copy",
+          "searchValue": "PyBe",
+          "approach": [
+            {
+              "text": "01Frame the question",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "02Follow the evidence",
+              "selected": "true",
+              "classes": "approach__tab is-active"
+            },
+            {
+              "text": "03Build in the open",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "04Keep exploring",
+              "selected": "false",
+              "classes": "approach__tab"
+            }
+          ],
+          "filters": [
+            {
+              "text": "All work",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Business & Analytics",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Research",
+              "classes": "archive__filter is-active"
+            },
+            {
+              "text": "Cybersecurity & Forensic",
+              "classes": "archive__filter"
+            }
+          ],
+          "projectsShown": "0 / 3 SHOWN",
+          "mobileMenu": {
+            "open": "",
+            "visible": false
+          },
+          "sections": [
+            {
+              "id": "top",
+              "top": -6126
+            },
+            {
+              "id": "marquee",
+              "top": -5226
+            },
+            {
+              "id": "about",
+              "top": -5168.44
+            },
+            {
+              "id": "education",
+              "top": -3764.58
+            },
+            {
+              "id": "experience",
+              "top": -2956.8
+            },
+            {
+              "id": "approach",
+              "top": -2068.09
+            },
+            {
+              "id": "projects",
+              "top": -1203.47
+            },
+            {
+              "id": "certifications",
+              "top": 0.19
+            },
+            {
+              "id": "skills",
+              "top": 1055.5
+            },
+            {
+              "id": "achievements",
+              "top": 3077.44
+            },
+            {
+              "id": "community",
+              "top": 3778.39
+            },
+            {
+              "id": "contact",
+              "top": 4380.31
+            }
+          ],
+          "currently": "CURRENTLY —UnderGrad @ IIT MadrasIntern @ IIT RoparCoFounder @CynorvaCurrently: UnderGrad @ IIT Madras; Intern @ IIT Ropar; CoFounder @Cynorva"
+        },
+        "skillsSecondGroup": {
+          "scrollX": 0,
+          "scrollY": 7669,
+          "introPending": false,
+          "motionReady": true,
+          "heroIntent": "particles-ready",
+          "dialogOpen": false,
+          "dialogTitle": "Certificate",
+          "dialogSrc": "",
+          "copyLabel": "Copy",
+          "searchValue": "PyBe",
+          "approach": [
+            {
+              "text": "01Frame the question",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "02Follow the evidence",
+              "selected": "true",
+              "classes": "approach__tab is-active"
+            },
+            {
+              "text": "03Build in the open",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "04Keep exploring",
+              "selected": "false",
+              "classes": "approach__tab"
+            }
+          ],
+          "filters": [
+            {
+              "text": "All work",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Business & Analytics",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Research",
+              "classes": "archive__filter is-active"
+            },
+            {
+              "text": "Cybersecurity & Forensic",
+              "classes": "archive__filter"
+            }
+          ],
+          "projectsShown": "0 / 3 SHOWN",
+          "mobileMenu": {
+            "open": "",
+            "visible": false
+          },
+          "sections": [
+            {
+              "id": "top",
+              "top": -7669
+            },
+            {
+              "id": "marquee",
+              "top": -6769
+            },
+            {
+              "id": "about",
+              "top": -6711.44
+            },
+            {
+              "id": "education",
+              "top": -5307.58
+            },
+            {
+              "id": "experience",
+              "top": -4499.8
+            },
+            {
+              "id": "approach",
+              "top": -3611.09
+            },
+            {
+              "id": "projects",
+              "top": -2746.47
+            },
+            {
+              "id": "certifications",
+              "top": -1542.81
+            },
+            {
+              "id": "skills",
+              "top": -487.5
+            },
+            {
+              "id": "achievements",
+              "top": 1534.44
+            },
+            {
+              "id": "community",
+              "top": 2235.39
+            },
+            {
+              "id": "contact",
+              "top": 2837.31
+            }
+          ],
+          "currently": "CURRENTLY —UnderGrad @ IIT MadrasIntern @ IIT RoparCoFounder @CynorvaCurrently: UnderGrad @ IIT Madras; Intern @ IIT Ropar; CoFounder @Cynorva"
+        },
+        "achievementLightbox": {
+          "scrollX": 0,
+          "scrollY": 7680,
+          "introPending": false,
+          "motionReady": true,
+          "heroIntent": "particles-ready",
+          "dialogOpen": false,
+          "dialogTitle": "Certificate",
+          "dialogSrc": "",
+          "copyLabel": "Copy",
+          "searchValue": "PyBe",
+          "approach": [
+            {
+              "text": "01Frame the question",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "02Follow the evidence",
+              "selected": "true",
+              "classes": "approach__tab is-active"
+            },
+            {
+              "text": "03Build in the open",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "04Keep exploring",
+              "selected": "false",
+              "classes": "approach__tab"
+            }
+          ],
+          "filters": [
+            {
+              "text": "All work",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Business & Analytics",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Research",
+              "classes": "archive__filter is-active"
+            },
+            {
+              "text": "Cybersecurity & Forensic",
+              "classes": "archive__filter"
+            }
+          ],
+          "projectsShown": "0 / 3 SHOWN",
+          "mobileMenu": {
+            "open": "",
+            "visible": false
+          },
+          "sections": [
+            {
+              "id": "top",
+              "top": -7680
+            },
+            {
+              "id": "marquee",
+              "top": -6780
+            },
+            {
+              "id": "about",
+              "top": -6722.44
+            },
+            {
+              "id": "education",
+              "top": -5318.58
+            },
+            {
+              "id": "experience",
+              "top": -4510.8
+            },
+            {
+              "id": "approach",
+              "top": -3622.09
+            },
+            {
+              "id": "projects",
+              "top": -2757.47
+            },
+            {
+              "id": "certifications",
+              "top": -1553.81
+            },
+            {
+              "id": "skills",
+              "top": -498.5
+            },
+            {
+              "id": "achievements",
+              "top": 1523.44
+            },
+            {
+              "id": "community",
+              "top": 2224.39
+            },
+            {
+              "id": "contact",
+              "top": 2826.31
+            }
+          ],
+          "currently": "CURRENTLY —UnderGrad @ IIT MadrasIntern @ IIT RoparCoFounder @CynorvaCurrently: UnderGrad @ IIT Madras; Intern @ IIT Ropar; CoFounder @Cynorva"
+        },
+        "achievementLightboxClosed": {
+          "scrollX": 0,
+          "scrollY": 7680,
+          "introPending": false,
+          "motionReady": true,
+          "heroIntent": "particles-ready",
+          "dialogOpen": false,
+          "dialogTitle": "Certificate",
+          "dialogSrc": "",
+          "copyLabel": "Copy",
+          "searchValue": "PyBe",
+          "approach": [
+            {
+              "text": "01Frame the question",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "02Follow the evidence",
+              "selected": "true",
+              "classes": "approach__tab is-active"
+            },
+            {
+              "text": "03Build in the open",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "04Keep exploring",
+              "selected": "false",
+              "classes": "approach__tab"
+            }
+          ],
+          "filters": [
+            {
+              "text": "All work",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Business & Analytics",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Research",
+              "classes": "archive__filter is-active"
+            },
+            {
+              "text": "Cybersecurity & Forensic",
+              "classes": "archive__filter"
+            }
+          ],
+          "projectsShown": "0 / 3 SHOWN",
+          "mobileMenu": {
+            "open": "",
+            "visible": false
+          },
+          "sections": [
+            {
+              "id": "top",
+              "top": -7680
+            },
+            {
+              "id": "marquee",
+              "top": -6780
+            },
+            {
+              "id": "about",
+              "top": -6722.44
+            },
+            {
+              "id": "education",
+              "top": -5318.58
+            },
+            {
+              "id": "experience",
+              "top": -4510.8
+            },
+            {
+              "id": "approach",
+              "top": -3622.09
+            },
+            {
+              "id": "projects",
+              "top": -2757.47
+            },
+            {
+              "id": "certifications",
+              "top": -1553.81
+            },
+            {
+              "id": "skills",
+              "top": -498.5
+            },
+            {
+              "id": "achievements",
+              "top": 1523.44
+            },
+            {
+              "id": "community",
+              "top": 2224.39
+            },
+            {
+              "id": "contact",
+              "top": 2826.31
+            }
+          ],
+          "currently": "CURRENTLY —UnderGrad @ IIT MadrasIntern @ IIT RoparCoFounder @CynorvaCurrently: UnderGrad @ IIT Madras; Intern @ IIT Ropar; CoFounder @Cynorva"
+        },
+        "terminalOpen": {
+          "scrollX": 0,
+          "scrollY": 0,
+          "introPending": false,
+          "motionReady": true,
+          "heroIntent": "particles-ready",
+          "dialogOpen": false,
+          "dialogTitle": "Certificate",
+          "dialogSrc": "",
+          "copyLabel": "Copy",
+          "searchValue": "PyBe",
+          "approach": [
+            {
+              "text": "01Frame the question",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "02Follow the evidence",
+              "selected": "true",
+              "classes": "approach__tab is-active"
+            },
+            {
+              "text": "03Build in the open",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "04Keep exploring",
+              "selected": "false",
+              "classes": "approach__tab"
+            }
+          ],
+          "filters": [
+            {
+              "text": "All work",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Business & Analytics",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Research",
+              "classes": "archive__filter is-active"
+            },
+            {
+              "text": "Cybersecurity & Forensic",
+              "classes": "archive__filter"
+            }
+          ],
+          "projectsShown": "0 / 3 SHOWN",
+          "mobileMenu": {
+            "open": "",
+            "visible": false
+          },
+          "sections": [
+            {
+              "id": "top",
+              "top": 0
+            },
+            {
+              "id": "marquee",
+              "top": 900
+            },
+            {
+              "id": "about",
+              "top": 957.56
+            },
+            {
+              "id": "education",
+              "top": 2361.42
+            },
+            {
+              "id": "experience",
+              "top": 3169.2
+            },
+            {
+              "id": "approach",
+              "top": 4057.91
+            },
+            {
+              "id": "projects",
+              "top": 4922.53
+            },
+            {
+              "id": "certifications",
+              "top": 6126.19
+            },
+            {
+              "id": "skills",
+              "top": 7181.5
+            },
+            {
+              "id": "achievements",
+              "top": 9203.44
+            },
+            {
+              "id": "community",
+              "top": 9904.39
+            },
+            {
+              "id": "contact",
+              "top": 10506.31
+            }
+          ],
+          "currently": "CURRENTLY —UnderGrad @ IIT MadrasIntern @ IIT RoparCoFounder @CynorvaCurrently: UnderGrad @ IIT Madras; Intern @ IIT Ropar; CoFounder @Cynorva"
+        },
+        "terminalClosed": {
+          "scrollX": 0,
+          "scrollY": 2854,
+          "introPending": false,
+          "motionReady": true,
+          "heroIntent": "particles-ready",
+          "dialogOpen": false,
+          "dialogTitle": "Certificate",
+          "dialogSrc": "",
+          "copyLabel": "Copy",
+          "searchValue": "PyBe",
+          "approach": [
+            {
+              "text": "01Frame the question",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "02Follow the evidence",
+              "selected": "true",
+              "classes": "approach__tab is-active"
+            },
+            {
+              "text": "03Build in the open",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "04Keep exploring",
+              "selected": "false",
+              "classes": "approach__tab"
+            }
+          ],
+          "filters": [
+            {
+              "text": "All work",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Business & Analytics",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Research",
+              "classes": "archive__filter is-active"
+            },
+            {
+              "text": "Cybersecurity & Forensic",
+              "classes": "archive__filter"
+            }
+          ],
+          "projectsShown": "0 / 3 SHOWN",
+          "mobileMenu": {
+            "open": "",
+            "visible": false
+          },
+          "sections": [
+            {
+              "id": "top",
+              "top": -2854
+            },
+            {
+              "id": "marquee",
+              "top": -1954
+            },
+            {
+              "id": "about",
+              "top": -1896.44
+            },
+            {
+              "id": "education",
+              "top": -492.58
+            },
+            {
+              "id": "experience",
+              "top": 315.2
+            },
+            {
+              "id": "approach",
+              "top": 1203.91
+            },
+            {
+              "id": "projects",
+              "top": 2068.53
+            },
+            {
+              "id": "certifications",
+              "top": 3272.19
+            },
+            {
+              "id": "skills",
+              "top": 4327.5
+            },
+            {
+              "id": "achievements",
+              "top": 6349.44
+            },
+            {
+              "id": "community",
+              "top": 7050.39
+            },
+            {
+              "id": "contact",
+              "top": 7652.31
+            }
+          ],
+          "currently": "CURRENTLY —UnderGrad @ IIT MadrasIntern @ IIT RoparCoFounder @CynorvaCurrently: UnderGrad @ IIT Madras; Intern @ IIT Ropar; CoFounder @Cynorva"
+        },
+        "copyEmail": {
+          "scrollX": 0,
+          "scrollY": 10281,
+          "introPending": false,
+          "motionReady": true,
+          "heroIntent": "particles-ready",
+          "dialogOpen": false,
+          "dialogTitle": "Certificate",
+          "dialogSrc": "",
+          "copyLabel": "Copy",
+          "searchValue": "PyBe",
+          "approach": [
+            {
+              "text": "01Frame the question",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "02Follow the evidence",
+              "selected": "true",
+              "classes": "approach__tab is-active"
+            },
+            {
+              "text": "03Build in the open",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "04Keep exploring",
+              "selected": "false",
+              "classes": "approach__tab"
+            }
+          ],
+          "filters": [
+            {
+              "text": "All work",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Business & Analytics",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Research",
+              "classes": "archive__filter is-active"
+            },
+            {
+              "text": "Cybersecurity & Forensic",
+              "classes": "archive__filter"
+            }
+          ],
+          "projectsShown": "0 / 3 SHOWN",
+          "mobileMenu": {
+            "open": "",
+            "visible": false
+          },
+          "sections": [
+            {
+              "id": "top",
+              "top": -10281
+            },
+            {
+              "id": "marquee",
+              "top": -9381
+            },
+            {
+              "id": "about",
+              "top": -9323.44
+            },
+            {
+              "id": "education",
+              "top": -7919.58
+            },
+            {
+              "id": "experience",
+              "top": -7111.8
+            },
+            {
+              "id": "approach",
+              "top": -6223.09
+            },
+            {
+              "id": "projects",
+              "top": -5358.47
+            },
+            {
+              "id": "certifications",
+              "top": -4154.81
+            },
+            {
+              "id": "skills",
+              "top": -3099.5
+            },
+            {
+              "id": "achievements",
+              "top": -1077.56
+            },
+            {
+              "id": "community",
+              "top": -376.61
+            },
+            {
+              "id": "contact",
+              "top": 225.31
+            }
+          ],
+          "currently": "CURRENTLY —UnderGrad @ IIT MadrasIntern @ IIT RoparCoFounder @CynorvaCurrently: UnderGrad @ IIT Madras; Intern @ IIT Ropar; CoFounder @Cynorva"
+        },
+        "floatingCta": {
+          "scrollX": 0,
+          "scrollY": 10865,
+          "introPending": false,
+          "motionReady": true,
+          "heroIntent": "particles-ready",
+          "dialogOpen": false,
+          "dialogTitle": "Certificate",
+          "dialogSrc": "",
+          "copyLabel": "Copy",
+          "searchValue": "PyBe",
+          "approach": [
+            {
+              "text": "01Frame the question",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "02Follow the evidence",
+              "selected": "true",
+              "classes": "approach__tab is-active"
+            },
+            {
+              "text": "03Build in the open",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "04Keep exploring",
+              "selected": "false",
+              "classes": "approach__tab"
+            }
+          ],
+          "filters": [
+            {
+              "text": "All work",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Business & Analytics",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Research",
+              "classes": "archive__filter is-active"
+            },
+            {
+              "text": "Cybersecurity & Forensic",
+              "classes": "archive__filter"
+            }
+          ],
+          "projectsShown": "0 / 3 SHOWN",
+          "mobileMenu": {
+            "open": "",
+            "visible": false
+          },
+          "sections": [
+            {
+              "id": "top",
+              "top": -10865
+            },
+            {
+              "id": "marquee",
+              "top": -9965
+            },
+            {
+              "id": "about",
+              "top": -9907.44
+            },
+            {
+              "id": "education",
+              "top": -8503.58
+            },
+            {
+              "id": "experience",
+              "top": -7695.8
+            },
+            {
+              "id": "approach",
+              "top": -6807.09
+            },
+            {
+              "id": "projects",
+              "top": -5942.47
+            },
+            {
+              "id": "certifications",
+              "top": -4738.81
+            },
+            {
+              "id": "skills",
+              "top": -3683.5
+            },
+            {
+              "id": "achievements",
+              "top": -1661.56
+            },
+            {
+              "id": "community",
+              "top": -960.61
+            },
+            {
+              "id": "contact",
+              "top": -358.69
+            }
+          ],
+          "currently": "CURRENTLY —UnderGrad @ IIT MadrasIntern @ IIT RoparCoFounder @CynorvaCurrently: UnderGrad @ IIT Madras; Intern @ IIT Ropar; CoFounder @Cynorva"
+        }
+      },
+      "staticStates": {
+        "final": {
+          "scrollX": 0,
+          "scrollY": 0,
+          "introPending": false,
+          "motionReady": true,
+          "heroIntent": "particles-ready",
+          "dialogOpen": false,
+          "dialogTitle": "Certificate",
+          "dialogSrc": "",
+          "copyLabel": "Copy",
+          "searchValue": "",
+          "approach": [
+            {
+              "text": "01Frame the question",
+              "selected": "true",
+              "classes": "approach__tab is-active"
+            },
+            {
+              "text": "02Follow the evidence",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "03Build in the open",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "04Keep exploring",
+              "selected": "false",
+              "classes": "approach__tab"
+            }
+          ],
+          "filters": [
+            {
+              "text": "All work",
+              "classes": "archive__filter is-active"
+            },
+            {
+              "text": "Business & Analytics",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Research",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Cybersecurity & Forensic",
+              "classes": "archive__filter"
+            }
+          ],
+          "projectsShown": "3 / 3 SHOWN",
+          "mobileMenu": {
+            "open": "",
+            "visible": false
+          },
+          "sections": [
+            {
+              "id": "top",
+              "top": 0
+            },
+            {
+              "id": "marquee",
+              "top": 900
+            },
+            {
+              "id": "about",
+              "top": 957.56
+            },
+            {
+              "id": "education",
+              "top": 2361.42
+            },
+            {
+              "id": "experience",
+              "top": 3169.2
+            },
+            {
+              "id": "approach",
+              "top": 3869.69
+            },
+            {
+              "id": "projects",
+              "top": 4734.31
+            },
+            {
+              "id": "certifications",
+              "top": 6497.97
+            },
+            {
+              "id": "skills",
+              "top": 7553.28
+            },
+            {
+              "id": "achievements",
+              "top": 9575.22
+            },
+            {
+              "id": "community",
+              "top": 10276.17
+            },
+            {
+              "id": "contact",
+              "top": 10878.09
+            }
+          ],
+          "currently": "CURRENTLY —UnderGrad @ IIT MadrasIntern @ IIT RoparCoFounder @CynorvaCurrently: UnderGrad @ IIT Madras; Intern @ IIT Ropar; CoFounder @Cynorva"
+        },
+        "navHover": {
+          "scrollX": 0,
+          "scrollY": 0,
+          "introPending": false,
+          "motionReady": true,
+          "heroIntent": "particles-ready",
+          "dialogOpen": false,
+          "dialogTitle": "Certificate",
+          "dialogSrc": "",
+          "copyLabel": "Copy",
+          "searchValue": "",
+          "approach": [
+            {
+              "text": "01Frame the question",
+              "selected": "true",
+              "classes": "approach__tab is-active"
+            },
+            {
+              "text": "02Follow the evidence",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "03Build in the open",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "04Keep exploring",
+              "selected": "false",
+              "classes": "approach__tab"
+            }
+          ],
+          "filters": [
+            {
+              "text": "All work",
+              "classes": "archive__filter is-active"
+            },
+            {
+              "text": "Business & Analytics",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Research",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Cybersecurity & Forensic",
+              "classes": "archive__filter"
+            }
+          ],
+          "projectsShown": "3 / 3 SHOWN",
+          "mobileMenu": {
+            "open": "",
+            "visible": false
+          },
+          "sections": [
+            {
+              "id": "top",
+              "top": 0
+            },
+            {
+              "id": "marquee",
+              "top": 900
+            },
+            {
+              "id": "about",
+              "top": 957.56
+            },
+            {
+              "id": "education",
+              "top": 2361.42
+            },
+            {
+              "id": "experience",
+              "top": 3169.2
+            },
+            {
+              "id": "approach",
+              "top": 3869.69
+            },
+            {
+              "id": "projects",
+              "top": 4734.31
+            },
+            {
+              "id": "certifications",
+              "top": 6497.97
+            },
+            {
+              "id": "skills",
+              "top": 7553.28
+            },
+            {
+              "id": "achievements",
+              "top": 9575.22
+            },
+            {
+              "id": "community",
+              "top": 10276.17
+            },
+            {
+              "id": "contact",
+              "top": 10878.09
+            }
+          ],
+          "currently": "CURRENTLY —UnderGrad @ IIT MadrasIntern @ IIT RoparCoFounder @CynorvaCurrently: UnderGrad @ IIT Madras; Intern @ IIT Ropar; CoFounder @Cynorva"
+        },
+        "heroCtaHover": {
+          "scrollX": 0,
+          "scrollY": 0,
+          "introPending": false,
+          "motionReady": true,
+          "heroIntent": "particles-ready",
+          "dialogOpen": false,
+          "dialogTitle": "Certificate",
+          "dialogSrc": "",
+          "copyLabel": "Copy",
+          "searchValue": "",
+          "approach": [
+            {
+              "text": "01Frame the question",
+              "selected": "true",
+              "classes": "approach__tab is-active"
+            },
+            {
+              "text": "02Follow the evidence",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "03Build in the open",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "04Keep exploring",
+              "selected": "false",
+              "classes": "approach__tab"
+            }
+          ],
+          "filters": [
+            {
+              "text": "All work",
+              "classes": "archive__filter is-active"
+            },
+            {
+              "text": "Business & Analytics",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Research",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Cybersecurity & Forensic",
+              "classes": "archive__filter"
+            }
+          ],
+          "projectsShown": "3 / 3 SHOWN",
+          "mobileMenu": {
+            "open": "",
+            "visible": false
+          },
+          "sections": [
+            {
+              "id": "top",
+              "top": 0
+            },
+            {
+              "id": "marquee",
+              "top": 900
+            },
+            {
+              "id": "about",
+              "top": 957.56
+            },
+            {
+              "id": "education",
+              "top": 2361.42
+            },
+            {
+              "id": "experience",
+              "top": 3169.2
+            },
+            {
+              "id": "approach",
+              "top": 3869.69
+            },
+            {
+              "id": "projects",
+              "top": 4734.31
+            },
+            {
+              "id": "certifications",
+              "top": 6497.97
+            },
+            {
+              "id": "skills",
+              "top": 7553.28
+            },
+            {
+              "id": "achievements",
+              "top": 9575.22
+            },
+            {
+              "id": "community",
+              "top": 10276.17
+            },
+            {
+              "id": "contact",
+              "top": 10878.09
+            }
+          ],
+          "currently": "CURRENTLY —UnderGrad @ IIT MadrasIntern @ IIT RoparCoFounder @CynorvaCurrently: UnderGrad @ IIT Madras; Intern @ IIT Ropar; CoFounder @Cynorva"
+        },
+        "experienceAccordion": {
+          "scrollX": 0,
+          "scrollY": 3169,
+          "introPending": false,
+          "motionReady": true,
+          "heroIntent": "particles-ready",
+          "dialogOpen": false,
+          "dialogTitle": "Certificate",
+          "dialogSrc": "",
+          "copyLabel": "Copy",
+          "searchValue": "",
+          "approach": [
+            {
+              "text": "01Frame the question",
+              "selected": "true",
+              "classes": "approach__tab is-active"
+            },
+            {
+              "text": "02Follow the evidence",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "03Build in the open",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "04Keep exploring",
+              "selected": "false",
+              "classes": "approach__tab"
+            }
+          ],
+          "filters": [
+            {
+              "text": "All work",
+              "classes": "archive__filter is-active"
+            },
+            {
+              "text": "Business & Analytics",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Research",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Cybersecurity & Forensic",
+              "classes": "archive__filter"
+            }
+          ],
+          "projectsShown": "3 / 3 SHOWN",
+          "mobileMenu": {
+            "open": "",
+            "visible": false
+          },
+          "sections": [
+            {
+              "id": "top",
+              "top": -3169
+            },
+            {
+              "id": "marquee",
+              "top": -2269
+            },
+            {
+              "id": "about",
+              "top": -2211.44
+            },
+            {
+              "id": "education",
+              "top": -807.58
+            },
+            {
+              "id": "experience",
+              "top": 0.2
+            },
+            {
+              "id": "approach",
+              "top": 888.91
+            },
+            {
+              "id": "projects",
+              "top": 1753.53
+            },
+            {
+              "id": "certifications",
+              "top": 3517.19
+            },
+            {
+              "id": "skills",
+              "top": 4572.5
+            },
+            {
+              "id": "achievements",
+              "top": 6594.44
+            },
+            {
+              "id": "community",
+              "top": 7295.39
+            },
+            {
+              "id": "contact",
+              "top": 7897.31
+            }
+          ],
+          "currently": "CURRENTLY —UnderGrad @ IIT MadrasIntern @ IIT RoparCoFounder @CynorvaCurrently: UnderGrad @ IIT Madras; Intern @ IIT Ropar; CoFounder @Cynorva"
+        },
+        "approachTab": {
+          "scrollX": 0,
+          "scrollY": 4058,
+          "introPending": false,
+          "motionReady": true,
+          "heroIntent": "particles-ready",
+          "dialogOpen": false,
+          "dialogTitle": "Certificate",
+          "dialogSrc": "",
+          "copyLabel": "Copy",
+          "searchValue": "",
+          "approach": [
+            {
+              "text": "01Frame the question",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "02Follow the evidence",
+              "selected": "true",
+              "classes": "approach__tab is-active"
+            },
+            {
+              "text": "03Build in the open",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "04Keep exploring",
+              "selected": "false",
+              "classes": "approach__tab"
+            }
+          ],
+          "filters": [
+            {
+              "text": "All work",
+              "classes": "archive__filter is-active"
+            },
+            {
+              "text": "Business & Analytics",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Research",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Cybersecurity & Forensic",
+              "classes": "archive__filter"
+            }
+          ],
+          "projectsShown": "3 / 3 SHOWN",
+          "mobileMenu": {
+            "open": "",
+            "visible": false
+          },
+          "sections": [
+            {
+              "id": "top",
+              "top": -4058
+            },
+            {
+              "id": "marquee",
+              "top": -3158
+            },
+            {
+              "id": "about",
+              "top": -3100.44
+            },
+            {
+              "id": "education",
+              "top": -1696.58
+            },
+            {
+              "id": "experience",
+              "top": -888.8
+            },
+            {
+              "id": "approach",
+              "top": -0.09
+            },
+            {
+              "id": "projects",
+              "top": 864.53
+            },
+            {
+              "id": "certifications",
+              "top": 2628.19
+            },
+            {
+              "id": "skills",
+              "top": 3683.5
+            },
+            {
+              "id": "achievements",
+              "top": 5705.44
+            },
+            {
+              "id": "community",
+              "top": 6406.39
+            },
+            {
+              "id": "contact",
+              "top": 7008.31
+            }
+          ],
+          "currently": "CURRENTLY —UnderGrad @ IIT MadrasIntern @ IIT RoparCoFounder @CynorvaCurrently: UnderGrad @ IIT Madras; Intern @ IIT Ropar; CoFounder @Cynorva"
+        },
+        "projectFilter": {
+          "scrollX": 0,
+          "scrollY": 5426,
+          "introPending": false,
+          "motionReady": true,
+          "heroIntent": "particles-ready",
+          "dialogOpen": false,
+          "dialogTitle": "Certificate",
+          "dialogSrc": "",
+          "copyLabel": "Copy",
+          "searchValue": "",
+          "approach": [
+            {
+              "text": "01Frame the question",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "02Follow the evidence",
+              "selected": "true",
+              "classes": "approach__tab is-active"
+            },
+            {
+              "text": "03Build in the open",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "04Keep exploring",
+              "selected": "false",
+              "classes": "approach__tab"
+            }
+          ],
+          "filters": [
+            {
+              "text": "All work",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Business & Analytics",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Research",
+              "classes": "archive__filter is-active"
+            },
+            {
+              "text": "Cybersecurity & Forensic",
+              "classes": "archive__filter"
+            }
+          ],
+          "projectsShown": "1 / 3 SHOWN",
+          "mobileMenu": {
+            "open": "",
+            "visible": false
+          },
+          "sections": [
+            {
+              "id": "top",
+              "top": -5426
+            },
+            {
+              "id": "marquee",
+              "top": -4526
+            },
+            {
+              "id": "about",
+              "top": -4468.44
+            },
+            {
+              "id": "education",
+              "top": -3064.58
+            },
+            {
+              "id": "experience",
+              "top": -2256.8
+            },
+            {
+              "id": "approach",
+              "top": -1368.09
+            },
+            {
+              "id": "projects",
+              "top": -503.47
+            },
+            {
+              "id": "certifications",
+              "top": 1263.19
+            },
+            {
+              "id": "skills",
+              "top": 2318.5
+            },
+            {
+              "id": "achievements",
+              "top": 4340.44
+            },
+            {
+              "id": "community",
+              "top": 5041.39
+            },
+            {
+              "id": "contact",
+              "top": 5643.31
+            }
+          ],
+          "currently": "CURRENTLY —UnderGrad @ IIT MadrasIntern @ IIT RoparCoFounder @CynorvaCurrently: UnderGrad @ IIT Madras; Intern @ IIT Ropar; CoFounder @Cynorva"
+        },
+        "projectSearch": {
+          "scrollX": 0,
+          "scrollY": 4949,
+          "introPending": false,
+          "motionReady": true,
+          "heroIntent": "particles-ready",
+          "dialogOpen": false,
+          "dialogTitle": "Certificate",
+          "dialogSrc": "",
+          "copyLabel": "Copy",
+          "searchValue": "PyBe",
+          "approach": [
+            {
+              "text": "01Frame the question",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "02Follow the evidence",
+              "selected": "true",
+              "classes": "approach__tab is-active"
+            },
+            {
+              "text": "03Build in the open",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "04Keep exploring",
+              "selected": "false",
+              "classes": "approach__tab"
+            }
+          ],
+          "filters": [
+            {
+              "text": "All work",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Business & Analytics",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Research",
+              "classes": "archive__filter is-active"
+            },
+            {
+              "text": "Cybersecurity & Forensic",
+              "classes": "archive__filter"
+            }
+          ],
+          "projectsShown": "0 / 3 SHOWN",
+          "mobileMenu": {
+            "open": "",
+            "visible": false
+          },
+          "sections": [
+            {
+              "id": "top",
+              "top": -4949
+            },
+            {
+              "id": "marquee",
+              "top": -4049
+            },
+            {
+              "id": "about",
+              "top": -3991.44
+            },
+            {
+              "id": "education",
+              "top": -2587.58
+            },
+            {
+              "id": "experience",
+              "top": -1779.8
+            },
+            {
+              "id": "approach",
+              "top": -891.09
+            },
+            {
+              "id": "projects",
+              "top": -26.47
+            },
+            {
+              "id": "certifications",
+              "top": 1177.19
+            },
+            {
+              "id": "skills",
+              "top": 2232.5
+            },
+            {
+              "id": "achievements",
+              "top": 4254.44
+            },
+            {
+              "id": "community",
+              "top": 4955.39
+            },
+            {
+              "id": "contact",
+              "top": 5557.31
+            }
+          ],
+          "currently": "CURRENTLY —UnderGrad @ IIT MadrasIntern @ IIT RoparCoFounder @CynorvaCurrently: UnderGrad @ IIT Madras; Intern @ IIT Ropar; CoFounder @Cynorva"
+        },
+        "certRailScrolled": {
+          "scrollX": 0,
+          "scrollY": 6126,
+          "introPending": false,
+          "motionReady": true,
+          "heroIntent": "particles-ready",
+          "dialogOpen": false,
+          "dialogTitle": "Certificate",
+          "dialogSrc": "",
+          "copyLabel": "Copy",
+          "searchValue": "PyBe",
+          "approach": [
+            {
+              "text": "01Frame the question",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "02Follow the evidence",
+              "selected": "true",
+              "classes": "approach__tab is-active"
+            },
+            {
+              "text": "03Build in the open",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "04Keep exploring",
+              "selected": "false",
+              "classes": "approach__tab"
+            }
+          ],
+          "filters": [
+            {
+              "text": "All work",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Business & Analytics",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Research",
+              "classes": "archive__filter is-active"
+            },
+            {
+              "text": "Cybersecurity & Forensic",
+              "classes": "archive__filter"
+            }
+          ],
+          "projectsShown": "0 / 3 SHOWN",
+          "mobileMenu": {
+            "open": "",
+            "visible": false
+          },
+          "sections": [
+            {
+              "id": "top",
+              "top": -6126
+            },
+            {
+              "id": "marquee",
+              "top": -5226
+            },
+            {
+              "id": "about",
+              "top": -5168.44
+            },
+            {
+              "id": "education",
+              "top": -3764.58
+            },
+            {
+              "id": "experience",
+              "top": -2956.8
+            },
+            {
+              "id": "approach",
+              "top": -2068.09
+            },
+            {
+              "id": "projects",
+              "top": -1203.47
+            },
+            {
+              "id": "certifications",
+              "top": 0.19
+            },
+            {
+              "id": "skills",
+              "top": 1055.5
+            },
+            {
+              "id": "achievements",
+              "top": 3077.44
+            },
+            {
+              "id": "community",
+              "top": 3778.39
+            },
+            {
+              "id": "contact",
+              "top": 4380.31
+            }
+          ],
+          "currently": "CURRENTLY —UnderGrad @ IIT MadrasIntern @ IIT RoparCoFounder @CynorvaCurrently: UnderGrad @ IIT Madras; Intern @ IIT Ropar; CoFounder @Cynorva"
+        },
+        "certificateLinkHover": {
+          "scrollX": 0,
+          "scrollY": 6126,
+          "introPending": false,
+          "motionReady": true,
+          "heroIntent": "particles-ready",
+          "dialogOpen": false,
+          "dialogTitle": "Certificate",
+          "dialogSrc": "",
+          "copyLabel": "Copy",
+          "searchValue": "PyBe",
+          "approach": [
+            {
+              "text": "01Frame the question",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "02Follow the evidence",
+              "selected": "true",
+              "classes": "approach__tab is-active"
+            },
+            {
+              "text": "03Build in the open",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "04Keep exploring",
+              "selected": "false",
+              "classes": "approach__tab"
+            }
+          ],
+          "filters": [
+            {
+              "text": "All work",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Business & Analytics",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Research",
+              "classes": "archive__filter is-active"
+            },
+            {
+              "text": "Cybersecurity & Forensic",
+              "classes": "archive__filter"
+            }
+          ],
+          "projectsShown": "0 / 3 SHOWN",
+          "mobileMenu": {
+            "open": "",
+            "visible": false
+          },
+          "sections": [
+            {
+              "id": "top",
+              "top": -6126
+            },
+            {
+              "id": "marquee",
+              "top": -5226
+            },
+            {
+              "id": "about",
+              "top": -5168.44
+            },
+            {
+              "id": "education",
+              "top": -3764.58
+            },
+            {
+              "id": "experience",
+              "top": -2956.8
+            },
+            {
+              "id": "approach",
+              "top": -2068.09
+            },
+            {
+              "id": "projects",
+              "top": -1203.47
+            },
+            {
+              "id": "certifications",
+              "top": 0.19
+            },
+            {
+              "id": "skills",
+              "top": 1055.5
+            },
+            {
+              "id": "achievements",
+              "top": 3077.44
+            },
+            {
+              "id": "community",
+              "top": 3778.39
+            },
+            {
+              "id": "contact",
+              "top": 4380.31
+            }
+          ],
+          "currently": "CURRENTLY —UnderGrad @ IIT MadrasIntern @ IIT RoparCoFounder @CynorvaCurrently: UnderGrad @ IIT Madras; Intern @ IIT Ropar; CoFounder @Cynorva"
+        },
+        "skillsSecondGroup": {
+          "scrollX": 0,
+          "scrollY": 7669,
+          "introPending": false,
+          "motionReady": true,
+          "heroIntent": "particles-ready",
+          "dialogOpen": false,
+          "dialogTitle": "Certificate",
+          "dialogSrc": "",
+          "copyLabel": "Copy",
+          "searchValue": "PyBe",
+          "approach": [
+            {
+              "text": "01Frame the question",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "02Follow the evidence",
+              "selected": "true",
+              "classes": "approach__tab is-active"
+            },
+            {
+              "text": "03Build in the open",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "04Keep exploring",
+              "selected": "false",
+              "classes": "approach__tab"
+            }
+          ],
+          "filters": [
+            {
+              "text": "All work",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Business & Analytics",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Research",
+              "classes": "archive__filter is-active"
+            },
+            {
+              "text": "Cybersecurity & Forensic",
+              "classes": "archive__filter"
+            }
+          ],
+          "projectsShown": "0 / 3 SHOWN",
+          "mobileMenu": {
+            "open": "",
+            "visible": false
+          },
+          "sections": [
+            {
+              "id": "top",
+              "top": -7669
+            },
+            {
+              "id": "marquee",
+              "top": -6769
+            },
+            {
+              "id": "about",
+              "top": -6711.44
+            },
+            {
+              "id": "education",
+              "top": -5307.58
+            },
+            {
+              "id": "experience",
+              "top": -4499.8
+            },
+            {
+              "id": "approach",
+              "top": -3611.09
+            },
+            {
+              "id": "projects",
+              "top": -2746.47
+            },
+            {
+              "id": "certifications",
+              "top": -1542.81
+            },
+            {
+              "id": "skills",
+              "top": -487.5
+            },
+            {
+              "id": "achievements",
+              "top": 1534.44
+            },
+            {
+              "id": "community",
+              "top": 2235.39
+            },
+            {
+              "id": "contact",
+              "top": 2837.31
+            }
+          ],
+          "currently": "CURRENTLY —UnderGrad @ IIT MadrasIntern @ IIT RoparCoFounder @CynorvaCurrently: UnderGrad @ IIT Madras; Intern @ IIT Ropar; CoFounder @Cynorva"
+        },
+        "achievementLightbox": {
+          "scrollX": 0,
+          "scrollY": 7680,
+          "introPending": false,
+          "motionReady": true,
+          "heroIntent": "particles-ready",
+          "dialogOpen": false,
+          "dialogTitle": "Certificate",
+          "dialogSrc": "",
+          "copyLabel": "Copy",
+          "searchValue": "PyBe",
+          "approach": [
+            {
+              "text": "01Frame the question",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "02Follow the evidence",
+              "selected": "true",
+              "classes": "approach__tab is-active"
+            },
+            {
+              "text": "03Build in the open",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "04Keep exploring",
+              "selected": "false",
+              "classes": "approach__tab"
+            }
+          ],
+          "filters": [
+            {
+              "text": "All work",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Business & Analytics",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Research",
+              "classes": "archive__filter is-active"
+            },
+            {
+              "text": "Cybersecurity & Forensic",
+              "classes": "archive__filter"
+            }
+          ],
+          "projectsShown": "0 / 3 SHOWN",
+          "mobileMenu": {
+            "open": "",
+            "visible": false
+          },
+          "sections": [
+            {
+              "id": "top",
+              "top": -7680
+            },
+            {
+              "id": "marquee",
+              "top": -6780
+            },
+            {
+              "id": "about",
+              "top": -6722.44
+            },
+            {
+              "id": "education",
+              "top": -5318.58
+            },
+            {
+              "id": "experience",
+              "top": -4510.8
+            },
+            {
+              "id": "approach",
+              "top": -3622.09
+            },
+            {
+              "id": "projects",
+              "top": -2757.47
+            },
+            {
+              "id": "certifications",
+              "top": -1553.81
+            },
+            {
+              "id": "skills",
+              "top": -498.5
+            },
+            {
+              "id": "achievements",
+              "top": 1523.44
+            },
+            {
+              "id": "community",
+              "top": 2224.39
+            },
+            {
+              "id": "contact",
+              "top": 2826.31
+            }
+          ],
+          "currently": "CURRENTLY —UnderGrad @ IIT MadrasIntern @ IIT RoparCoFounder @CynorvaCurrently: UnderGrad @ IIT Madras; Intern @ IIT Ropar; CoFounder @Cynorva"
+        },
+        "achievementLightboxClosed": {
+          "scrollX": 0,
+          "scrollY": 7680,
+          "introPending": false,
+          "motionReady": true,
+          "heroIntent": "particles-ready",
+          "dialogOpen": false,
+          "dialogTitle": "Certificate",
+          "dialogSrc": "",
+          "copyLabel": "Copy",
+          "searchValue": "PyBe",
+          "approach": [
+            {
+              "text": "01Frame the question",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "02Follow the evidence",
+              "selected": "true",
+              "classes": "approach__tab is-active"
+            },
+            {
+              "text": "03Build in the open",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "04Keep exploring",
+              "selected": "false",
+              "classes": "approach__tab"
+            }
+          ],
+          "filters": [
+            {
+              "text": "All work",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Business & Analytics",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Research",
+              "classes": "archive__filter is-active"
+            },
+            {
+              "text": "Cybersecurity & Forensic",
+              "classes": "archive__filter"
+            }
+          ],
+          "projectsShown": "0 / 3 SHOWN",
+          "mobileMenu": {
+            "open": "",
+            "visible": false
+          },
+          "sections": [
+            {
+              "id": "top",
+              "top": -7680
+            },
+            {
+              "id": "marquee",
+              "top": -6780
+            },
+            {
+              "id": "about",
+              "top": -6722.44
+            },
+            {
+              "id": "education",
+              "top": -5318.58
+            },
+            {
+              "id": "experience",
+              "top": -4510.8
+            },
+            {
+              "id": "approach",
+              "top": -3622.09
+            },
+            {
+              "id": "projects",
+              "top": -2757.47
+            },
+            {
+              "id": "certifications",
+              "top": -1553.81
+            },
+            {
+              "id": "skills",
+              "top": -498.5
+            },
+            {
+              "id": "achievements",
+              "top": 1523.44
+            },
+            {
+              "id": "community",
+              "top": 2224.39
+            },
+            {
+              "id": "contact",
+              "top": 2826.31
+            }
+          ],
+          "currently": "CURRENTLY —UnderGrad @ IIT MadrasIntern @ IIT RoparCoFounder @CynorvaCurrently: UnderGrad @ IIT Madras; Intern @ IIT Ropar; CoFounder @Cynorva"
+        },
+        "terminalOpen": {
+          "scrollX": 0,
+          "scrollY": 0,
+          "introPending": false,
+          "motionReady": true,
+          "heroIntent": "particles-ready",
+          "dialogOpen": false,
+          "dialogTitle": "Certificate",
+          "dialogSrc": "",
+          "copyLabel": "Copy",
+          "searchValue": "PyBe",
+          "approach": [
+            {
+              "text": "01Frame the question",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "02Follow the evidence",
+              "selected": "true",
+              "classes": "approach__tab is-active"
+            },
+            {
+              "text": "03Build in the open",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "04Keep exploring",
+              "selected": "false",
+              "classes": "approach__tab"
+            }
+          ],
+          "filters": [
+            {
+              "text": "All work",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Business & Analytics",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Research",
+              "classes": "archive__filter is-active"
+            },
+            {
+              "text": "Cybersecurity & Forensic",
+              "classes": "archive__filter"
+            }
+          ],
+          "projectsShown": "0 / 3 SHOWN",
+          "mobileMenu": {
+            "open": "",
+            "visible": false
+          },
+          "sections": [
+            {
+              "id": "top",
+              "top": 0
+            },
+            {
+              "id": "marquee",
+              "top": 900
+            },
+            {
+              "id": "about",
+              "top": 957.56
+            },
+            {
+              "id": "education",
+              "top": 2361.42
+            },
+            {
+              "id": "experience",
+              "top": 3169.2
+            },
+            {
+              "id": "approach",
+              "top": 4057.91
+            },
+            {
+              "id": "projects",
+              "top": 4922.53
+            },
+            {
+              "id": "certifications",
+              "top": 6126.19
+            },
+            {
+              "id": "skills",
+              "top": 7181.5
+            },
+            {
+              "id": "achievements",
+              "top": 9203.44
+            },
+            {
+              "id": "community",
+              "top": 9904.39
+            },
+            {
+              "id": "contact",
+              "top": 10506.31
+            }
+          ],
+          "currently": "CURRENTLY —UnderGrad @ IIT MadrasIntern @ IIT RoparCoFounder @CynorvaCurrently: UnderGrad @ IIT Madras; Intern @ IIT Ropar; CoFounder @Cynorva"
+        },
+        "terminalClosed": {
+          "scrollX": 0,
+          "scrollY": 2854,
+          "introPending": false,
+          "motionReady": true,
+          "heroIntent": "particles-ready",
+          "dialogOpen": false,
+          "dialogTitle": "Certificate",
+          "dialogSrc": "",
+          "copyLabel": "Copy",
+          "searchValue": "PyBe",
+          "approach": [
+            {
+              "text": "01Frame the question",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "02Follow the evidence",
+              "selected": "true",
+              "classes": "approach__tab is-active"
+            },
+            {
+              "text": "03Build in the open",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "04Keep exploring",
+              "selected": "false",
+              "classes": "approach__tab"
+            }
+          ],
+          "filters": [
+            {
+              "text": "All work",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Business & Analytics",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Research",
+              "classes": "archive__filter is-active"
+            },
+            {
+              "text": "Cybersecurity & Forensic",
+              "classes": "archive__filter"
+            }
+          ],
+          "projectsShown": "0 / 3 SHOWN",
+          "mobileMenu": {
+            "open": "",
+            "visible": false
+          },
+          "sections": [
+            {
+              "id": "top",
+              "top": -2854
+            },
+            {
+              "id": "marquee",
+              "top": -1954
+            },
+            {
+              "id": "about",
+              "top": -1896.44
+            },
+            {
+              "id": "education",
+              "top": -492.58
+            },
+            {
+              "id": "experience",
+              "top": 315.2
+            },
+            {
+              "id": "approach",
+              "top": 1203.91
+            },
+            {
+              "id": "projects",
+              "top": 2068.53
+            },
+            {
+              "id": "certifications",
+              "top": 3272.19
+            },
+            {
+              "id": "skills",
+              "top": 4327.5
+            },
+            {
+              "id": "achievements",
+              "top": 6349.44
+            },
+            {
+              "id": "community",
+              "top": 7050.39
+            },
+            {
+              "id": "contact",
+              "top": 7652.31
+            }
+          ],
+          "currently": "CURRENTLY —UnderGrad @ IIT MadrasIntern @ IIT RoparCoFounder @CynorvaCurrently: UnderGrad @ IIT Madras; Intern @ IIT Ropar; CoFounder @Cynorva"
+        },
+        "copyEmail": {
+          "scrollX": 0,
+          "scrollY": 10262,
+          "introPending": false,
+          "motionReady": true,
+          "heroIntent": "particles-ready",
+          "dialogOpen": false,
+          "dialogTitle": "Certificate",
+          "dialogSrc": "",
+          "copyLabel": "Copy",
+          "searchValue": "PyBe",
+          "approach": [
+            {
+              "text": "01Frame the question",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "02Follow the evidence",
+              "selected": "true",
+              "classes": "approach__tab is-active"
+            },
+            {
+              "text": "03Build in the open",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "04Keep exploring",
+              "selected": "false",
+              "classes": "approach__tab"
+            }
+          ],
+          "filters": [
+            {
+              "text": "All work",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Business & Analytics",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Research",
+              "classes": "archive__filter is-active"
+            },
+            {
+              "text": "Cybersecurity & Forensic",
+              "classes": "archive__filter"
+            }
+          ],
+          "projectsShown": "0 / 3 SHOWN",
+          "mobileMenu": {
+            "open": "",
+            "visible": false
+          },
+          "sections": [
+            {
+              "id": "top",
+              "top": -10262
+            },
+            {
+              "id": "marquee",
+              "top": -9362
+            },
+            {
+              "id": "about",
+              "top": -9304.44
+            },
+            {
+              "id": "education",
+              "top": -7900.58
+            },
+            {
+              "id": "experience",
+              "top": -7092.8
+            },
+            {
+              "id": "approach",
+              "top": -6204.09
+            },
+            {
+              "id": "projects",
+              "top": -5339.47
+            },
+            {
+              "id": "certifications",
+              "top": -4135.81
+            },
+            {
+              "id": "skills",
+              "top": -3080.5
+            },
+            {
+              "id": "achievements",
+              "top": -1058.56
+            },
+            {
+              "id": "community",
+              "top": -357.61
+            },
+            {
+              "id": "contact",
+              "top": 244.31
+            }
+          ],
+          "currently": "CURRENTLY —UnderGrad @ IIT MadrasIntern @ IIT RoparCoFounder @CynorvaCurrently: UnderGrad @ IIT Madras; Intern @ IIT Ropar; CoFounder @Cynorva"
+        },
+        "floatingCta": {
+          "scrollX": 0,
+          "scrollY": 10865,
+          "introPending": false,
+          "motionReady": true,
+          "heroIntent": "particles-ready",
+          "dialogOpen": false,
+          "dialogTitle": "Certificate",
+          "dialogSrc": "",
+          "copyLabel": "Copy",
+          "searchValue": "PyBe",
+          "approach": [
+            {
+              "text": "01Frame the question",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "02Follow the evidence",
+              "selected": "true",
+              "classes": "approach__tab is-active"
+            },
+            {
+              "text": "03Build in the open",
+              "selected": "false",
+              "classes": "approach__tab"
+            },
+            {
+              "text": "04Keep exploring",
+              "selected": "false",
+              "classes": "approach__tab"
+            }
+          ],
+          "filters": [
+            {
+              "text": "All work",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Business & Analytics",
+              "classes": "archive__filter"
+            },
+            {
+              "text": "Research",
+              "classes": "archive__filter is-active"
+            },
+            {
+              "text": "Cybersecurity & Forensic",
+              "classes": "archive__filter"
+            }
+          ],
+          "projectsShown": "0 / 3 SHOWN",
+          "mobileMenu": {
+            "open": "",
+            "visible": false
+          },
+          "sections": [
+            {
+              "id": "top",
+              "top": -10865
+            },
+            {
+              "id": "marquee",
+              "top": -9965
+            },
+            {
+              "id": "about",
+              "top": -9907.44
+            },
+            {
+              "id": "education",
+              "top": -8503.58
+            },
+            {
+              "id": "experience",
+              "top": -7695.8
+            },
+            {
+              "id": "approach",
+              "top": -6807.09
+            },
+            {
+              "id": "projects",
+              "top": -5942.47
+            },
+            {
+              "id": "certifications",
+              "top": -4738.81
+            },
+            {
+              "id": "skills",
+              "top": -3683.5
+            },
+            {
+              "id": "achievements",
+              "top": -1661.56
+            },
+            {
+              "id": "community",
+              "top": -960.61
+            },
+            {
+              "id": "contact",
+              "top": -358.69
+            }
+          ],
+          "currently": "CURRENTLY —UnderGrad @ IIT MadrasIntern @ IIT RoparCoFounder @CynorvaCurrently: UnderGrad @ IIT Madras; Intern @ IIT Ropar; CoFounder @Cynorva"
+        }
+      },
+      "masterErrors": [],
+      "staticErrors": []
+    }
+  ]
+}

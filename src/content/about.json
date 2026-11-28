@@ -1,0 +1,33 @@
+{
+  "headline": "DIVYANSH GARG",
+  "subheadline": "Driven by curiosity. Grounded in data. Inspired by technology.",
+  "bio": "I am an undergraduate student at IIT Madras, pursuing a BS in Management and Data Science. My work explores how analytical thinking and technology can support better decisions and stronger products.\n\nThis biography is a draft placeholder. Confirm the exact programme title, academic status and career focus in the CMS before publishing.",
+  "intro": "Exploring the intersection of data, business and technology.",
+  "availability": "Open to internships, analytics roles and collaborative technical work",
+  "location": "IIT Madras, India",
+  "careerDirection": "Data and business technologist",
+  "profileImage": "/uploads/profile/divyansh-portrait-reveal.webp",
+  "interests": [
+    "Data analytics",
+    "Business strategy",
+    "Web technologies",
+    "Computational problem solving"
+  ],
+  "currentlyLearning": [
+    "Machine learning pipelines",
+    "Full-stack architecture",
+    "Data engineering"
+  ],
+  "updatedAt": "2026-11-27T14:26:08.272Z",
+  "profileImageAlt": "Divyansh Garg portrait",
+  "profileImageMimeType": "image/webp",
+  "profileImageSize": 73782,
+  "profileImageWidth": 1200,
+  "profileImageHeight": 1684,
+  "profileImageBucket": "media-public",
+  "profileImageFilename": "divyansh-portrait-reveal.webp",
+  "profileImageFolder": "profile",
+  "profileImageUploadedBy": "local-import",
+  "profileImageBlurDataUrl": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACQAwCdASoQABYAPwForE6rJaQpsAgBYCAJZwAASFpt4/Q2zcJIAP7ZXfUT2/7K4W1/n6hS8OqsLNVOCWABTpXNAAA=",
+  "profileImageCreatedAt": "2026-11-26T20:12:16.474Z"
+}

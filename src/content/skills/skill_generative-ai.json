@@ -1,0 +1,13 @@
+{
+  "id": "skill_generative-ai",
+  "categoryId": "cat_programming",
+  "name": "Generative AI",
+  "note": "Learning / working knowledge.",
+  "featured": false,
+  "visibility": "published",
+  "order": 20,
+  "createdAt": "2026-11-26T19:42:08.991Z",
+  "updatedAt": "2026-11-26T23:25:50.908Z",
+  "publishedAt": "2026-11-26T23:25:50.908Z",
+  "deletedAt": null
+}

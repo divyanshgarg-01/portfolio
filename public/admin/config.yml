@@ -1,0 +1,708 @@
+site_name: Divyansh Garg Portfolio
+display_url: https://divyanshgarg-01.github.io/portfolio/
+logo_url: /portfolio/favicon.svg
+
+backend:
+  name: github
+  repo: divyanshgarg-01/portfolio
+  branch: main
+  base_url: https://divyansh-portfolio-oauth.workers.dev
+  auth_endpoint: auth
+
+publish_mode: editorial_workflow
+media_folder: "public/uploads"
+public_folder: "/portfolio/uploads"
+
+collections:
+  # ---------------------------------------------------------------------------
+  # Singletons
+  # ---------------------------------------------------------------------------
+  - name: "settings"
+    label: "Site Settings"
+    files:
+      - file: "src/content/settings.json"
+        label: "Global settings, navigation and labels"
+        name: "settings"
+        fields:
+          - { label: "Site Title", name: "siteTitle", widget: "string" }
+          - { label: "Site Description", name: "siteDescription", widget: "text" }
+          - { label: "Contact Email", name: "contactEmail", widget: "string" }
+          - { label: "Location", name: "location", widget: "string" }
+          - { label: "Timezone", name: "timezone", widget: "string", hint: "IANA name, e.g. Asia/Kolkata" }
+          - { label: "Footer Note", name: "footerNote", widget: "text" }
+          - { label: "Social Sharing Image", name: "ogImage", widget: "image", choose_url: true, required: false }
+          - label: "Navigation Items"
+            name: "navItems"
+            widget: "list"
+            fields:
+              - { label: "Label", name: "label", widget: "string" }
+              - label: "Section"
+                name: "section"
+                widget: "select"
+                options: ["top", "about", "education", "experience", "approach", "projects", "certifications", "skills", "achievements", "community", "contact"]
+              - { label: "Visible", name: "visible", widget: "boolean", default: true }
+          - label: "Header CTA"
+            name: "cta"
+            widget: "object"
+            fields:
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "URL", name: "url", widget: "string" }
+          - label: "Section Visibility"
+            name: "sectionVisibility"
+            widget: "object"
+            fields:
+              - { label: "Hero", name: "hero", widget: "boolean", default: true }
+              - { label: "About", name: "about", widget: "boolean", default: true }
+              - { label: "Education", name: "education", widget: "boolean", default: true }
+              - { label: "Experience", name: "experience", widget: "boolean", default: true }
+              - { label: "Approach", name: "approach", widget: "boolean", default: true }
+              - { label: "Projects", name: "projects", widget: "boolean", default: true }
+              - { label: "Certifications", name: "certifications", widget: "boolean", default: true }
+              - { label: "Skills", name: "skills", widget: "boolean", default: true }
+              - { label: "Achievements", name: "achievements", widget: "boolean", default: true }
+              - { label: "Community", name: "community", widget: "boolean", default: true }
+              - { label: "Contact", name: "contact", widget: "boolean", default: true }
+          - label: "Section Order"
+            name: "sectionOrder"
+            widget: "list"
+            hint: "Drag to reorder sections; unknown section ids are ignored."
+            field:
+              label: "Section"
+              name: "section"
+              widget: "select"
+              options: ["top", "marquee", "about", "education", "experience", "approach", "projects", "certifications", "skills", "achievements", "community", "contact"]
+            default: ["top", "marquee", "about", "education", "experience", "approach", "projects", "certifications", "skills", "achievements", "community", "contact"]
+          - label: "Section Headings"
+            name: "sectionHeadings"
+            widget: "object"
+            fields:
+              - { label: "About", name: "about", widget: "string", required: false }
+              - { label: "Education", name: "education", widget: "string", required: false }
+              - { label: "Experience", name: "experience", widget: "string", required: false }
+              - { label: "Approach", name: "approach", widget: "string", required: false }
+              - { label: "Projects", name: "projects", widget: "string", required: false }
+              - { label: "Certifications", name: "certifications", widget: "string", required: false }
+              - { label: "Skills", name: "skills", widget: "string", required: false }
+              - { label: "Achievements", name: "achievements", widget: "string", required: false }
+              - { label: "Community", name: "community", widget: "string", required: false }
+              - { label: "Contact", name: "contact", widget: "string", required: false }
+          - label: "Appearance"
+            name: "appearance"
+            widget: "object"
+            fields:
+              - { label: "Accent", name: "accent", widget: "string", hint: "Theme token, e.g. caramel" }
+              - { label: "Grain Overlay", name: "grain", widget: "boolean", default: false }
+              - { label: "Loader", name: "loader", widget: "boolean", default: true }
+              - { label: "Terminal", name: "terminal", widget: "boolean", default: true }
+              - label: "Ember Density"
+                name: "emberDensity"
+                widget: "select"
+                options: ["low", "medium", "high"]
+                default: "medium"
+          - { label: "Last Updated (ISO 8601)", name: "updatedAt", widget: "string", required: false }
+          - label: "Currently Lines"
+            name: "currentlyLines"
+            widget: "list"
+            field: { label: "Line", name: "line", widget: "string" }
+            default: ["UnderGrad @ IIT Madras", "Intern @ IIT Ropar", "CoFounder @Cynorva"]
+          - label: "Interface Labels"
+            name: "labels"
+            widget: "object"
+            fields:
+              - label: "Common"
+                name: "common"
+                widget: "object"
+                fields:
+                  - { label: "Skip to content", name: "skipToContent", widget: "string" }
+                  - { label: "Logo aria label", name: "navLogoAria", widget: "string" }
+                  - { label: "Primary navigation aria label", name: "primaryNavigation", widget: "string" }
+                  - { label: "Open menu", name: "openMenu", widget: "string" }
+                  - { label: "Monogram", name: "monogram", widget: "string" }
+                  - { label: "Display name", name: "name", widget: "string" }
+                  - { label: "Decorative spark", name: "decorativeSpark", widget: "string" }
+                  - { label: "Cursor: Go", name: "cursorGo", widget: "string" }
+                  - { label: "Cursor: View", name: "cursorView", widget: "string" }
+                  - { label: "Cursor: Open", name: "cursorOpen", widget: "string" }
+                  - { label: "Cursor: Read", name: "cursorRead", widget: "string" }
+                  - { label: "Cursor: Expand", name: "cursorExpand", widget: "string" }
+                  - { label: "Cursor: Copy", name: "cursorCopy", widget: "string" }
+                  - { label: "Cursor: Visit", name: "cursorVisit", widget: "string" }
+                  - { label: "Cursor: Connect", name: "cursorConnect", widget: "string" }
+                  - { label: "Cursor: Download", name: "cursorDownload", widget: "string" }
+                  - { label: "Cursor: Verify", name: "cursorVerify", widget: "string" }
+                  - { label: "Cursor: Code", name: "cursorCode", widget: "string" }
+                  - { label: "Cursor: Profile", name: "cursorProfile", widget: "string" }
+                  - { label: "Cursor: GitHub", name: "cursorGitHub", widget: "string" }
+                  - { label: "All work on GitHub", name: "allWorkOnGitHub", widget: "string" }
+                  - { label: "Close", name: "close", widget: "string" }
+              - label: "Hero"
+                name: "hero"
+                widget: "object"
+                fields:
+                  - { label: "Kicker", name: "kicker", widget: "string" }
+                  - { label: "Index", name: "index", widget: "string" }
+                  - { label: "Currently label", name: "currentlyLabel", widget: "string" }
+                  - { label: "Screen-reader prefix", name: "currentlyScreenReaderPrefix", widget: "string" }
+                  - { label: "Headline fallback", name: "headlineFallback", widget: "string" }
+                  - { label: "Primary button", name: "primaryButton", widget: "string" }
+                  - { label: "Secondary button", name: "secondaryButton", widget: "string" }
+                  - { label: "Scroll cue", name: "scrollCue", widget: "string" }
+              - label: "About"
+                name: "about"
+                widget: "object"
+                fields:
+                  - { label: "Kicker", name: "kicker", widget: "string" }
+                  - { label: "Heading", name: "heading", widget: "string" }
+                  - { label: "Editorial phrase", name: "editorialPhrase", widget: "string" }
+                  - { label: "Intro editorial phrase", name: "introEditorialPhrase", widget: "string" }
+                  - { label: "Marquee aria label", name: "marqueeAriaLabel", widget: "string" }
+                  - { label: "Portrait alt fallback", name: "portraitAltFallback", widget: "string" }
+                  - { label: "Portrait placeholder aria label", name: "portraitPlaceholderAria", widget: "string" }
+                  - { label: "Portrait monogram", name: "portraitMonogram", widget: "string" }
+                  - { label: "Portrait caption suffix", name: "portraitCaptionSuffix", widget: "string" }
+                  - { label: "Portrait caption fallback", name: "portraitCaptionFallback", widget: "string" }
+                  - { label: "Draft bio note", name: "draftBioNote", widget: "string" }
+                  - { label: "Projects stat", name: "statProjects", widget: "string" }
+                  - { label: "Experiences stat", name: "statExperiences", widget: "string" }
+                  - { label: "Skills stat", name: "statSkills", widget: "string" }
+                  - { label: "Achievements stat", name: "statAchievements", widget: "string" }
+                  - { label: "Stat suffix", name: "statSuffix", widget: "string" }
+                  - { label: "Interests title", name: "interestsTitle", widget: "string" }
+              - label: "Education"
+                name: "education"
+                widget: "object"
+                fields:
+                  - { label: "Kicker", name: "kicker", widget: "string" }
+                  - { label: "Heading", name: "heading", widget: "string" }
+                  - { label: "Verify details", name: "verifyDetails", widget: "string" }
+              - label: "Experience"
+                name: "experience"
+                widget: "object"
+                fields:
+                  - { label: "Kicker", name: "kicker", widget: "string" }
+                  - { label: "Heading", name: "heading", widget: "string" }
+                  - { label: "Present suffix", name: "present", widget: "string" }
+              - label: "Approach"
+                name: "approach"
+                widget: "object"
+                fields:
+                  - { label: "Kicker", name: "kicker", widget: "string" }
+                  - { label: "Heading", name: "heading", widget: "string" }
+                  - { label: "Editorial phrase", name: "editorialPhrase", widget: "string" }
+                  - { label: "Tablist aria label", name: "tablistLabel", widget: "string" }
+                  - { label: "Note", name: "note", widget: "string" }
+                  - label: "Panel titles and sources"
+                    name: "panels"
+                    widget: "list"
+                    fields:
+                      - { label: "ID", name: "id", widget: "string" }
+                      - { label: "Number", name: "number", widget: "string" }
+                      - { label: "Title", name: "title", widget: "string" }
+                      - { label: "Source", name: "source", widget: "string" }
+                  - { label: "Evidence prefix", name: "evidencePrefix", widget: "string" }
+                  - { label: "Evidence suffix", name: "evidenceSuffix", widget: "string" }
+                  - { label: "Featured source prefix", name: "featuredSourcePrefix", widget: "string" }
+              - label: "Projects"
+                name: "projects"
+                widget: "object"
+                fields:
+                  - { label: "Kicker", name: "kicker", widget: "string" }
+                  - { label: "Heading", name: "heading", widget: "string" }
+                  - { label: "Editorial phrase", name: "editorialPhrase", widget: "string" }
+                  - { label: "Select a project aria label", name: "selectProject", widget: "string" }
+                  - { label: "Case prefix", name: "casePrefix", widget: "string" }
+                  - { label: "Featured badge", name: "featured", widget: "string" }
+                  - { label: "Overview label", name: "overview", widget: "string" }
+                  - { label: "Technologies label", name: "technologies", widget: "string" }
+                  - { label: "Verify description", name: "verifyDescription", widget: "string" }
+                  - { label: "Live project link", name: "liveProject", widget: "string" }
+                  - { label: "Source link", name: "source", widget: "string" }
+                  - { label: "Filter aria label", name: "filterByCategory", widget: "string" }
+                  - { label: "All work filter", name: "filterAll", widget: "string" }
+                  - { label: "Search placeholder", name: "searchProjects", widget: "string" }
+                  - { label: "Shown suffix", name: "shownSuffix", widget: "string" }
+                  - { label: "Project prefix", name: "projectPrefix", widget: "string" }
+                  - { label: "Featured separator", name: "featuredSeparator", widget: "string" }
+                  - { label: "Status separator", name: "statusSeparator", widget: "string" }
+                  - { label: "Live link", name: "live", widget: "string" }
+                  - { label: "Code link", name: "code", widget: "string" }
+              - label: "Certifications"
+                name: "certifications"
+                widget: "object"
+                fields:
+                  - { label: "Kicker", name: "kicker", widget: "string" }
+                  - { label: "Heading", name: "heading", widget: "string" }
+                  - { label: "Rail aria label", name: "railAria", widget: "string" }
+                  - { label: "PDF document", name: "pdfDocument", widget: "string" }
+                  - { label: "Generic document", name: "genericDocument", widget: "string" }
+                  - { label: "Missing issue date", name: "issueDateMissing", widget: "string" }
+                  - { label: "Expires prefix", name: "expiresPrefix", widget: "string" }
+                  - { label: "Missing issuer", name: "issuerMissing", widget: "string" }
+                  - { label: "Credential ID label", name: "credentialId", widget: "string" }
+                  - { label: "Not provided", name: "notProvided", widget: "string" }
+                  - { label: "View certificate", name: "viewCertificate", widget: "string" }
+                  - { label: "Missing file", name: "fileMissing", widget: "string" }
+                  - { label: "Verify credential", name: "verifyCredential", widget: "string" }
+                  - { label: "Lightbox aria label", name: "lightboxAria", widget: "string" }
+                  - { label: "Lightbox title", name: "lightboxTitle", widget: "string" }
+              - label: "Skills"
+                name: "skills"
+                widget: "object"
+                fields:
+                  - { label: "Kicker", name: "kicker", widget: "string" }
+                  - { label: "Heading", name: "heading", widget: "string" }
+                  - { label: "Intro", name: "intro", widget: "text" }
+                  - { label: "Intro editorial phrase", name: "introEditorialPhrase", widget: "string" }
+                  - { label: "Categories aria label", name: "categoriesAria", widget: "string" }
+                  - { label: "Other title", name: "otherTitle", widget: "string" }
+                  - { label: "Other description", name: "otherDescription", widget: "string" }
+                  - { label: "Skills suffix", name: "skillsSuffix", widget: "string" }
+                  - { label: "Core focus", name: "coreFocus", widget: "string" }
+              - label: "Achievements"
+                name: "achievements"
+                widget: "object"
+                fields:
+                  - { label: "Kicker", name: "kicker", widget: "string" }
+                  - { label: "Heading", name: "heading", widget: "string" }
+                  - { label: "Editorial phrase", name: "editorialPhrase", widget: "string" }
+                  - { label: "Rail aria label", name: "railAria", widget: "string" }
+                  - { label: "Verify", name: "verify", widget: "string" }
+                  - { label: "Open prefix", name: "openPrefix", widget: "string" }
+                  - { label: "View prefix", name: "viewPrefix", widget: "string" }
+              - label: "Community"
+                name: "community"
+                widget: "object"
+                fields:
+                  - { label: "Kicker", name: "kicker", widget: "string" }
+                  - { label: "Heading", name: "heading", widget: "string" }
+                  - { label: "Editorial phrase", name: "editorialPhrase", widget: "string" }
+                  - { label: "Notice", name: "notice", widget: "text" }
+                  - { label: "Learning label", name: "learningLabel", widget: "string" }
+              - label: "Contact"
+                name: "contact"
+                widget: "object"
+                fields:
+                  - { label: "Kicker", name: "kicker", widget: "string" }
+                  - { label: "Heading", name: "heading", widget: "text" }
+                  - { label: "Availability fallback", name: "availabilityFallback", widget: "string" }
+                  - { label: "Email label", name: "emailLabel", widget: "string" }
+                  - { label: "Copy", name: "copy", widget: "string" }
+                  - { label: "Location label", name: "locationLabel", widget: "string" }
+                  - { label: "Local time label", name: "localTimeLabel", widget: "string" }
+                  - { label: "Floating CTA fallback", name: "floatingCtaFallback", widget: "string" }
+              - label: "Footer"
+                name: "footer"
+                widget: "object"
+                fields:
+                  - { label: "Kicker", name: "kicker", widget: "string" }
+                  - { label: "Editorial phrase", name: "editorialPhrase", widget: "string" }
+                  - { label: "Copyright prefix", name: "copyrightPrefix", widget: "string" }
+                  - { label: "Back to top", name: "backToTop", widget: "string" }
+                  - { label: "Signature", name: "signature", widget: "string" }
+              - label: "Telemetry"
+                name: "telemetry"
+                widget: "object"
+                fields:
+                  - { label: "Clock fallback", name: "clockFallback", widget: "string" }
+              - label: "Preloader"
+                name: "preloader"
+                widget: "object"
+                fields:
+                  - label: "Words"
+                    name: "words"
+                    widget: "list"
+                    field: { label: "Word", name: "word", widget: "string" }
+                    default: ["Research", "Building", "Refining", "Shipping"]
+                  - { label: "Signature", name: "signature", widget: "string" }
+                  - { label: "Count fallback", name: "countFallback", widget: "string" }
+              - label: "Terminal"
+                name: "terminal"
+                widget: "object"
+                fields:
+                  - { label: "Button", name: "button", widget: "string" }
+                  - { label: "Shortcut", name: "shortcut", widget: "string" }
+                  - { label: "Dialog aria label", name: "dialogLabel", widget: "string" }
+                  - { label: "Bar user", name: "barUser", widget: "string" }
+                  - { label: "Escape hint", name: "escapeHint", widget: "string" }
+                  - { label: "Initial line", name: "initialLine", widget: "string" }
+                  - { label: "Prompt prefix", name: "promptPrefix", widget: "string" }
+                  - { label: "Help heading", name: "helpHeading", widget: "string" }
+                  - { label: "Command list", name: "commandList", widget: "string" }
+                  - { label: "No projects", name: "noProjects", widget: "string" }
+                  - { label: "No skills", name: "noSkills", widget: "string" }
+                  - { label: "No experience", name: "noExperience", widget: "string" }
+                  - { label: "No education", name: "noEducation", widget: "string" }
+                  - { label: "Achievements answer", name: "achievementsAnswer", widget: "string" }
+                  - { label: "Email prefix", name: "emailPrefix", widget: "string" }
+                  - { label: "Contact hint", name: "contactHint", widget: "string" }
+                  - { label: "No socials", name: "noSocials", widget: "string" }
+                  - { label: "Mentor answer", name: "mentorAnswer", widget: "string" }
+                  - { label: "Hire answer", name: "hireAnswer", widget: "string" }
+                  - { label: "Command-not-found prefix", name: "commandNotFoundPrefix", widget: "string" }
+                  - { label: "Command-not-found suffix", name: "commandNotFoundSuffix", widget: "string" }
+                  - { label: "Input aria label", name: "inputLabel", widget: "string" }
+                  - { label: "Placeholder", name: "placeholder", widget: "string" }
+                  - { label: "Reduced-motion placeholder", name: "reducedMotionPlaceholder", widget: "string" }
+                  - { label: "Prompt glyph", name: "promptGlyph", widget: "string" }
+                  - { label: "Submit glyph", name: "submitGlyph", widget: "string" }
+                  - label: "Commands"
+                    name: "commands"
+                    widget: "list"
+                    field: { label: "Command", name: "command", widget: "string" }
+          - label: "Approach Panels"
+            name: "approach"
+            widget: "list"
+            fields:
+              - { label: "ID", name: "id", widget: "string", hint: "Stable tab key" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Source", name: "source", widget: "string" }
+              - { label: "Body", name: "body", widget: "text" }
+          - label: "Community Section"
+            name: "community"
+            widget: "object"
+            fields:
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Kicker", name: "kicker", widget: "string" }
+              - { label: "Notice", name: "notice", widget: "text" }
+              - { label: "Learning label", name: "learningLabel", widget: "string" }
+
+  - name: "about"
+    label: "About"
+    files:
+      - file: "src/content/about.json"
+        label: "About section"
+        name: "about"
+        fields:
+          - { label: "Headline", name: "headline", widget: "string" }
+          - { label: "Sub-headline", name: "subheadline", widget: "string" }
+          - { label: "Biography", name: "bio", widget: "markdown" }
+          - { label: "Short Introduction", name: "intro", widget: "text", required: false }
+          - { label: "Availability", name: "availability", widget: "string", required: false }
+          - { label: "Location", name: "location", widget: "string", required: false }
+          - { label: "Career Direction", name: "careerDirection", widget: "string", required: false }
+          - { label: "Profile Image", name: "profileImage", widget: "image", choose_url: true, required: false }
+          - label: "Interests"
+            name: "interests"
+            widget: "list"
+            field: { label: "Interest", name: "interest", widget: "string" }
+          - label: "Currently Learning"
+            name: "currentlyLearning"
+            widget: "list"
+            field: { label: "Topic", name: "topic", widget: "string" }
+          - { label: "Last Updated (ISO 8601)", name: "updatedAt", widget: "string", required: false }
+          # Flat keys: the static adapter reads these directly from about.json.
+          - { label: "Profile Image Alt Text", name: "profileImageAlt", widget: "string", required: false }
+          - { label: "Profile Image MIME Type", name: "profileImageMimeType", widget: "string", required: false }
+          - { label: "Profile Image Size (bytes)", name: "profileImageSize", widget: "number", required: false }
+          - { label: "Profile Image Width", name: "profileImageWidth", widget: "number", required: false }
+          - { label: "Profile Image Height", name: "profileImageHeight", widget: "number", required: false }
+          - { label: "Profile Image Bucket", name: "profileImageBucket", widget: "string", required: false }
+          - { label: "Profile Image Filename", name: "profileImageFilename", widget: "string", required: false }
+          - { label: "Profile Image Folder", name: "profileImageFolder", widget: "string", required: false }
+          - { label: "Profile Image Uploaded By", name: "profileImageUploadedBy", widget: "string", required: false }
+          - { label: "Profile Image Blur Data URL", name: "profileImageBlurDataUrl", widget: "text", required: false }
+          - { label: "Profile Image Created At", name: "profileImageCreatedAt", widget: "string", required: false }
+
+  - name: "resume"
+    label: "Resume"
+    files:
+      - file: "src/content/resume.json"
+        label: "Resume file"
+        name: "resume"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Resume File (PDF)", name: "fileUrl", widget: "file", required: false }
+          - { label: "Last Updated", name: "lastUpdated", widget: "string", required: false }
+          - { label: "Summary", name: "summary", widget: "text", required: false }
+
+  # ---------------------------------------------------------------------------
+  # Folder collections
+  # ---------------------------------------------------------------------------
+  - name: "projects"
+    label: "Projects"
+    folder: "src/content/projects"
+    identifier_field: "title"
+    slug: "{{slug}}"
+    summary: "{{title}}"
+    extension: "json"
+    format: "json"
+    create: true
+    fields:
+      - { label: "ID", name: "id", widget: "string", hint: "Stable identifier used by the site" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Summary", name: "summary", widget: "text" }
+      - { label: "Description", name: "description", widget: "markdown" }
+      - { label: "Category", name: "category", widget: "string" }
+      - { label: "Status", name: "status", widget: "string" }
+      - { label: "Cover Image", name: "coverImage", widget: "image", choose_url: true, required: false }
+      # Flat keys: the static adapter reads these directly from the project JSON.
+      - { label: "Cover Alt Text", name: "coverAlt", widget: "string", required: false }
+      - { label: "Cover MIME Type", name: "coverMimeType", widget: "string", required: false }
+      - { label: "Cover Size (bytes)", name: "coverSize", widget: "number", required: false }
+      - { label: "Cover Width", name: "coverWidth", widget: "number", required: false }
+      - { label: "Cover Height", name: "coverHeight", widget: "number", required: false }
+      - { label: "Cover Bucket", name: "coverBucket", widget: "string", required: false }
+      - { label: "Cover Filename", name: "coverFilename", widget: "string", required: false }
+      - { label: "Cover Folder", name: "coverFolder", widget: "string", required: false }
+      - { label: "Cover Uploaded By", name: "coverUploadedBy", widget: "string", required: false }
+      - { label: "Cover Blur Data URL", name: "coverBlurDataUrl", widget: "text", required: false }
+      - { label: "Cover Created At", name: "coverCreatedAt", widget: "string", required: false }
+      - label: "Gallery"
+        name: "gallery"
+        widget: "list"
+        field: { label: "Image", name: "image", widget: "image", choose_url: true }
+        required: false
+      - label: "Technologies"
+        name: "technologies"
+        widget: "list"
+        field: { label: "Technology", name: "technology", widget: "string" }
+      - { label: "GitHub URL", name: "githubUrl", widget: "string", required: false }
+      - { label: "Live URL", name: "liveUrl", widget: "string", required: false }
+      - { label: "Featured", name: "featured", widget: "boolean", default: false }
+      - label: "Visibility"
+        name: "visibility"
+        widget: "select"
+        options:
+          - { label: "Draft", value: "draft" }
+          - { label: "Published", value: "published" }
+          - { label: "Unpublished", value: "unpublished" }
+        default: "draft"
+      - { label: "Display Order", name: "order", widget: "number", default: 1 }
+      # Flat keys: preserve the exported entity metadata on save.
+      - { label: "Created At", name: "createdAt", widget: "string", required: false }
+      - { label: "Updated At", name: "updatedAt", widget: "string", required: false }
+      - { label: "Published At", name: "publishedAt", widget: "string", required:false }
+      - { label: "Deleted At", name: "deletedAt", widget: "string", required: false }
+
+  - name: "experience"
+    label: "Experience"
+    folder: "src/content/experience"
+    identifier_field: "role"
+    slug: "{{slug}}"
+    summary: "{{role}} — {{organization}}"
+    extension: "json"
+    format: "json"
+    create: true
+    fields:
+      - { label: "ID", name: "id", widget: "string" }
+      - { label: "Role", name: "role", widget: "string" }
+      - { label: "Organisation", name: "organization", widget: "string" }
+      - { label: "Location", name: "location", widget: "string", required: false }
+      - { label: "Employment Type", name: "employmentType", widget: "string", required: false }
+      - { label: "Start Date", name: "startDate", widget: "string" }
+      - { label: "End Date", name: "endDate", widget: "string", required: false }
+      - { label: "Currently Ongoing", name: "isCurrent", widget: "boolean", default: false }
+      - { label: "Description", name: "description", widget: "markdown" }
+      - label: "Highlights"
+        name: "highlights"
+        widget: "list"
+        field: { label: "Highlight", name: "highlight", widget: "string" }
+        required: false
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        field: { label: "Tag", name: "tag", widget: "string" }
+        required: false
+      - { label: "Organisation Logo", name: "logo", widget: "image", choose_url: true, required: false }
+      - { label: "Certificate / Proof", name: "certificate", widget: "file", required: false }
+      - { label: "Featured", name: "featured", widget: "boolean", default: false }
+      - label: "Visibility"
+        name: "visibility"
+        widget: "select"
+        options:
+          - { label: "Draft", value: "draft" }
+          - { label: "Published", value: "published" }
+          - { label: "Unpublished", value: "unpublished" }
+        default: "draft"
+      - { label: "Display Order", name: "order", widget: "number", default: 1 }
+      # Flat keys: preserve the exported entity metadata on save.
+      - { label: "Created At", name: "createdAt", widget: "string", required: false }
+      - { label: "Updated At", name: "updatedAt", widget: "string", required: false }
+      - { label: "Published At", name: "publishedAt", widget: "string", required:false }
+      - { label: "Deleted At", name: "deletedAt", widget: "string", required: false }
+
+  - name: "education"
+    label: "Education"
+    folder: "src/content/education"
+    identifier_field: "degree"
+    slug: "{{slug}}"
+    summary: "{{degree}} — {{institution}}"
+    extension: "json"
+    format: "json"
+    create: true
+    fields:
+      - { label: "ID", name: "id", widget: "string" }
+      - { label: "Degree / Qualification", name: "degree", widget: "string" }
+      - { label: "Institution", name: "institution", widget: "string" }
+      - { label: "Location", name: "location", widget: "string", required: false }
+      - { label: "Period", name: "period", widget: "string" }
+      - { label: "Status", name: "status", widget: "string" }
+      - { label: "Details", name: "details", widget: "text", required: false }
+      - label: "Coursework"
+        name: "coursework"
+        widget: "list"
+        field: { label: "Course", name: "course", widget: "string" }
+        required: false
+      - { label: "Academic Achievement Note", name: "achievementNote", widget: "string", required: false }
+      - { label: "Featured", name: "featured", widget: "boolean", default: false }
+      - label: "Visibility"
+        name: "visibility"
+        widget: "select"
+        options:
+          - { label: "Draft", value: "draft" }
+          - { label: "Published", value: "published" }
+          - { label: "Unpublished", value: "unpublished" }
+        default: "draft"
+      - { label: "Display Order", name: "order", widget: "number", default: 1 }
+      # Flat keys: preserve the exported entity metadata on save.
+      - { label: "Created At", name: "createdAt", widget: "string", required: false }
+      - { label: "Updated At", name: "updatedAt", widget: "string", required: false }
+      - { label: "Published At", name: "publishedAt", widget: "string", required:false }
+      - { label: "Deleted At", name: "deletedAt", widget: "string", required: false }
+
+  - name: "skill-categories"
+    label: "Skill Categories"
+    folder: "src/content/skill-categories"
+    identifier_field: "title"
+    slug: "{{slug}}"
+    summary: "{{title}}"
+    extension: "json"
+    format: "json"
+    create: true
+    fields:
+      - { label: "ID", name: "id", widget: "string", hint: "Referenced by skills via categoryId" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "text", required: false }
+      - { label: "Colour Token", name: "colourToken", widget: "string", hint: "Theme token, e.g. caramel" }
+      - { label: "Featured", name: "featured", widget: "boolean", default: false }
+      - label: "Visibility"
+        name: "visibility"
+        widget: "select"
+        options:
+          - { label: "Draft", value: "draft" }
+          - { label: "Published", value: "published" }
+          - { label: "Unpublished", value: "unpublished" }
+        default: "draft"
+      - { label: "Display Order", name: "order", widget: "number", default: 1 }
+      # Flat keys: preserve the exported entity metadata on save.
+      - { label: "Created At", name: "createdAt", widget: "string", required: false }
+      - { label: "Updated At", name: "updatedAt", widget: "string", required: false }
+      - { label: "Published At", name: "publishedAt", widget: "string", required:false }
+      - { label: "Deleted At", name: "deletedAt", widget: "string", required: false }
+
+  - name: "skills"
+    label: "Skills"
+    folder: "src/content/skills"
+    identifier_field: "name"
+    slug: "{{slug}}"
+    summary: "{{name}}"
+    extension: "json"
+    format: "json"
+    create: true
+    fields:
+      - { label: "ID", name: "id", widget: "string" }
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Category ID", name: "categoryId", widget: "string", hint: "Copy an ID from Skill Categories" }
+      - { label: "Note", name: "note", widget: "string", required: false }
+      - { label: "Featured", name: "featured", widget: "boolean", default: false }
+      - label: "Visibility"
+        name: "visibility"
+        widget: "select"
+        options:
+          - { label: "Draft", value: "draft" }
+          - { label: "Published", value: "published" }
+          - { label: "Unpublished", value: "unpublished" }
+        default: "draft"
+      - { label: "Display Order", name: "order", widget: "number", default: 1 }
+      # Flat keys: preserve the exported entity metadata on save.
+      - { label: "Created At", name: "createdAt", widget: "string", required: false }
+      - { label: "Updated At", name: "updatedAt", widget: "string", required: false }
+      - { label: "Published At", name: "publishedAt", widget: "string", required:false }
+      - { label: "Deleted At", name: "deletedAt", widget: "string", required: false }
+
+  - name: "achievements"
+    label: "Achievements & Certificates"
+    folder: "src/content/achievements"
+    identifier_field: "title"
+    slug: "{{slug}}"
+    summary: "{{title}}"
+    extension: "json"
+    format: "json"
+    create: true
+    fields:
+      - { label: "ID", name: "id", widget: "string" }
+      - label: "Type"
+        name: "type"
+        widget: "select"
+        options: ["certificate", "achievement", "community"]
+        default: "achievement"
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Issuer", name: "issuer", widget: "string", required: false }
+      - { label: "Issue Date", name: "issueDate", widget: "string", required: false }
+      - { label: "Expiry Date", name: "expiryDate", widget: "string", required: false }
+      - { label: "Credential ID", name: "credentialId", widget: "string", required: false }
+      - { label: "Description", name: "description", widget: "text", required: false }
+      - { label: "Verification URL", name: "verificationUrl", widget: "string", required: false }
+      - { label: "Certificate File / Image", name: "file", widget: "file", required: false }
+      - { label: "File URL", name: "fileUrl", widget: "string", required: false, hint: "Exact media path used by the static adapter" }
+      - { label: "File Type (MIME or category)", name: "fileType", widget: "string", required: false }
+      # Flat keys: the static adapter reads these directly from the achievement JSON.
+      - { label: "File Alt Text", name: "fileAlt", widget: "string", required: false }
+      - { label: "File MIME Type", name: "fileMimeType", widget: "string", required: false }
+      - { label: "File Size (bytes)", name: "fileSize", widget: "number", required: false }
+      - { label: "File Width", name: "fileWidth", widget: "number", required: false }
+      - { label: "File Height", name: "fileHeight", widget: "number", required: false }
+      - { label: "File Bucket", name: "fileBucket", widget: "string", required: false }
+      - { label: "File Filename", name: "fileFilename", widget: "string", required: false }
+      - { label: "File Folder", name: "fileFolder", widget: "string", required: false }
+      - { label: "File Uploaded By", name: "fileUploadedBy", widget: "string", required: false }
+      - { label: "File Blur Data URL", name: "fileBlurDataUrl", widget: "text", required: false }
+      - { label: "File Created At", name: "fileCreatedAt", widget: "string", required: false }
+      - { label: "Featured", name: "featured", widget: "boolean", default: false }
+      - label: "Visibility"
+        name: "visibility"
+        widget: "select"
+        options:
+          - { label: "Draft", value: "draft" }
+          - { label: "Published", value: "published" }
+          - { label: "Unpublished", value: "unpublished" }
+        default: "draft"
+      - { label: "Display Order", name: "order", widget: "number", default: 1 }
+      # Flat keys: preserve the exported entity metadata on save.
+      - { label: "Created At", name: "createdAt", widget: "string", required: false }
+      - { label: "Updated At", name: "updatedAt", widget: "string", required: false }
+      - { label: "Published At", name: "publishedAt", widget: "string", required:false }
+      - { label: "Deleted At", name: "deletedAt", widget: "string", required: false }
+
+  - name: "socials"
+    label: "Social Links"
+    folder: "src/content/socials"
+    identifier_field: "label"
+    slug: "{{slug}}"
+    summary: "{{label}}"
+    extension: "json"
+    format: "json"
+    create: true
+    fields:
+      - { label: "ID", name: "id", widget: "string" }
+      - { label: "Platform", name: "platform", widget: "string", hint: "e.g. github, linkedin, email" }
+      - { label: "Label", name: "label", widget: "string" }
+      - { label: "URL", name: "url", widget: "string" }
+      - { label: "Icon Key", name: "iconKey", widget: "string", required: false }
+      - { label: "Visible", name: "visible", widget: "boolean", default: true }
+      - { label: "Featured", name: "featured", widget: "boolean", default: false }
+      - label: "Visibility"
+        name: "visibility"
+        widget: "select"
+        options:
+          - { label: "Draft", value: "draft" }
+          - { label: "Published", value: "published" }
+          - { label: "Unpublished", value: "unpublished" }
+        default: "draft"
+      - { label: "Display Order", name: "order", widget: "number", default: 1 }
+      # Flat keys: preserve the exported entity metadata on save.
+      - { label: "Created At", name: "createdAt", widget: "string", required: false }
+      - { label: "Updated At", name: "updatedAt", widget: "string", required: false }
+      - { label: "Published At", name: "publishedAt", widget: "string", required:false }
+      - { label: "Deleted At", name: "deletedAt", widget: "string", required: false }

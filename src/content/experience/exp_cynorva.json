@@ -1,0 +1,28 @@
+{
+  "id": "exp_cynorva",
+  "role": "Co-founder",
+  "organization": "Cynorva",
+  "location": "India",
+  "employmentType": "Venture",
+  "startDate": "2024",
+  "endDate": "",
+  "isCurrent": true,
+  "description": "Draft placeholder. Confirm dates and responsibilities before publishing.",
+  "highlights": [
+    "Product direction",
+    "Digital strategy"
+  ],
+  "tags": [
+    "Product",
+    "Analytics"
+  ],
+  "logo": "",
+  "certificate": "",
+  "featured": false,
+  "visibility": "published",
+  "order": 1,
+  "createdAt": "2026-11-25T22:56:29.555Z",
+  "updatedAt": "2026-11-25T22:56:29.555Z",
+  "publishedAt": "2026-11-25T22:56:29.555Z",
+  "deletedAt": null
+}

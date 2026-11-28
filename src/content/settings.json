@@ -1,0 +1,362 @@
+{
+  "siteTitle": "Divyansh Garg — Data, Business & Technology",
+  "siteDescription": "Portfolio of Divyansh Garg, undergraduate at IIT Madras, exploring data, business and technology.",
+  "contactEmail": "divyanshgarg.contact@gmail.com",
+  "location": "India",
+  "timezone": "Asia/Kolkata",
+  "footerNote": "Built with intention. Coffee black, bronze light.",
+  "ogImage": "",
+  "navItems": [
+    {
+      "label": "About",
+      "section": "about",
+      "visible": true
+    },
+    {
+      "label": "Education",
+      "section": "education",
+      "visible": true
+    },
+    {
+      "label": "Experience",
+      "section": "experience",
+      "visible": true
+    },
+    {
+      "label": "Projects",
+      "section": "projects",
+      "visible": true
+    },
+    {
+      "label": "Certifications",
+      "section": "certifications",
+      "visible": true
+    },
+    {
+      "label": "Skills",
+      "section": "skills",
+      "visible": true
+    },
+    {
+      "label": "Achievements",
+      "section": "achievements",
+      "visible": true
+    },
+    {
+      "label": "Contact",
+      "section": "contact",
+      "visible": true
+    }
+  ],
+  "cta": {
+    "label": "Contact",
+    "url": "/#contact"
+  },
+  "sectionVisibility": {
+    "hero": true,
+    "about": true,
+    "education": true,
+    "experience": true,
+    "projects": true,
+    "skills": true,
+    "achievements": true,
+    "community": true,
+    "contact": true,
+    "certifications": true
+  },
+  "sectionHeadings": {
+    "certifications": "Certifications"
+  },
+  "sectionOrder": [
+    "top",
+    "marquee",
+    "about",
+    "education",
+    "experience",
+    "approach",
+    "projects",
+    "certifications",
+    "skills",
+    "achievements",
+    "community",
+    "contact"
+  ],
+  "appearance": {
+    "accent": "caramel",
+    "grain": false,
+    "loader": true,
+    "terminal": true,
+    "emberDensity": "medium"
+  },
+  "updatedAt": "2026-11-27T14:26:02.173Z",
+  "currentlyLines": [
+    "UnderGrad @ IIT Madras",
+    "Intern @ IIT Ropar",
+    "CoFounder @Cynorva"
+  ],
+  "labels": {
+    "common": {
+      "skipToContent": "Skip to content",
+      "navLogoAria": "Divyansh Garg, back to top",
+      "primaryNavigation": "Primary navigation",
+      "openMenu": "Open menu",
+      "monogram": "DG",
+      "name": "Divyansh Garg",
+      "decorativeSpark": "✦",
+      "cursorGo": "Go",
+      "cursorView": "View",
+      "cursorOpen": "Open",
+      "cursorRead": "Read",
+      "cursorExpand": "Expand",
+      "cursorCopy": "Copy",
+      "cursorVisit": "Visit",
+      "cursorConnect": "Connect",
+      "cursorDownload": "Download",
+      "cursorVerify": "Verify",
+      "cursorCode": "Code",
+      "cursorProfile": "Profile",
+      "cursorGitHub": "GitHub",
+      "allWorkOnGitHub": "All work on GitHub",
+      "close": "Close"
+    },
+    "hero": {
+      "kicker": "PORTFOLIO / 2026",
+      "index": "INDEX / 01—10",
+      "currentlyLabel": "CURRENTLY —",
+      "currentlyScreenReaderPrefix": "Currently: ",
+      "headlineFallback": "DIVYANSH GARG",
+      "primaryButton": "View Projects",
+      "secondaryButton": "View CV",
+      "scrollCue": "Scroll to explore"
+    },
+    "about": {
+      "kicker": "(01) — About",
+      "heading": "Building at the intersection of data and decisions.",
+      "editorialPhrase": "data and decisions",
+      "introEditorialPhrase": "intersection",
+      "marqueeAriaLabel": "Areas of focus",
+      "portraitAltFallback": "Portrait of Divyansh Garg",
+      "portraitPlaceholderAria": "Profile image placeholder",
+      "portraitMonogram": "DG",
+      "portraitCaptionSuffix": " — portrait",
+      "portraitCaptionFallback": "Profile image — awaiting approved portrait",
+      "draftBioNote": "Review draft biography",
+      "statProjects": "Projects",
+      "statExperiences": "Experiences",
+      "statSkills": "Skills",
+      "statAchievements": "Achievements",
+      "statSuffix": "+",
+      "interestsTitle": "INTERESTS"
+    },
+    "education": {
+      "kicker": "(02) — Education",
+      "heading": "Learning in public, building with intent.",
+      "verifyDetails": "Verify details"
+    },
+    "experience": {
+      "kicker": "(03) — Experience",
+      "heading": "Roles that shaped how I work.",
+      "present": " — Present"
+    },
+    "approach": {
+      "kicker": "(04) — How I build",
+      "heading": "Four ways of approaching the work.",
+      "editorialPhrase": "the work",
+      "tablistLabel": "How I approach the work",
+      "note": "Drawn from the profile and work recorded in this portfolio.",
+      "panels": [
+        {
+          "id": "frame",
+          "number": "01",
+          "title": "Frame the question",
+          "source": "FROM THE PROFILE"
+        },
+        {
+          "id": "evidence",
+          "number": "02",
+          "title": "Follow the evidence",
+          "source": "FROM THE RESEARCH"
+        },
+        {
+          "id": "build",
+          "number": "03",
+          "title": "Build in the open",
+          "source": "FROM THE WORK"
+        },
+        {
+          "id": "explore",
+          "number": "04",
+          "title": "Keep exploring",
+          "source": "CURRENTLY LEARNING"
+        }
+      ],
+      "evidencePrefix": "Research focus: ",
+      "evidenceSuffix": ".",
+      "featuredSourcePrefix": "FROM "
+    },
+    "projects": {
+      "kicker": "(05) — Selected work",
+      "heading": "Projects with a point of view.",
+      "editorialPhrase": "point of view",
+      "selectProject": "Select a project",
+      "casePrefix": "CASE / 0",
+      "featured": "FEATURED",
+      "overview": "OVERVIEW",
+      "technologies": "TECHNOLOGIES",
+      "verifyDescription": "Verify description",
+      "liveProject": "Live project",
+      "source": "Source",
+      "filterByCategory": "Filter projects by category",
+      "filterAll": "All work",
+      "searchProjects": "Search projects",
+      "shownSuffix": "SHOWN",
+      "projectPrefix": "PROJECT / 0",
+      "featuredSeparator": " · FEATURED",
+      "statusSeparator": " · ",
+      "live": "Live",
+      "code": "Code"
+    },
+    "certifications": {
+      "kicker": "(06) — Certifications",
+      "heading": "Credentials earned so far.",
+      "railAria": "Certifications — scroll horizontally to browse",
+      "pdfDocument": "PDF certificate",
+      "genericDocument": "Certificate record",
+      "issueDateMissing": "Issue date not recorded",
+      "expiresPrefix": "Expires ",
+      "issuerMissing": "Issuing organisation not recorded",
+      "credentialId": "Credential ID",
+      "notProvided": "Not provided",
+      "viewCertificate": "View Certificate",
+      "fileMissing": "Certificate file not uploaded",
+      "verifyCredential": "Verify Credential",
+      "lightboxAria": "Certificate preview",
+      "lightboxTitle": "Certificate"
+    },
+    "skills": {
+      "kicker": "(07) — Capabilities",
+      "heading": "What I bring to the table.",
+      "intro": "A working map of what I am learning and applying — strongest across MERN, Python, data, business and applied AI, with plenty still in progress.",
+      "introEditorialPhrase": "learning and applying",
+      "categoriesAria": "Skill categories",
+      "otherTitle": "Other skills",
+      "otherDescription": "Published skills awaiting a category in the CMS.",
+      "skillsSuffix": " / SKILLS",
+      "coreFocus": "Core focus"
+    },
+    "achievements": {
+      "kicker": "(08) — Achievements",
+      "heading": "Proof of work, in progress.",
+      "editorialPhrase": "in progress",
+      "railAria": "Achievements and recognitions",
+      "verify": "Verify",
+      "openPrefix": "Open ",
+      "viewPrefix": "View "
+    },
+    "community": {
+      "kicker": "(09) — Currently exploring",
+      "heading": "Curiosity is a practice.",
+      "editorialPhrase": "a practice",
+      "notice": "Community statistics and video tabs are omitted until verified metrics and links are supplied.",
+      "learningLabel": "CURRENTLY LEARNING"
+    },
+    "contact": {
+      "kicker": "(10) — Contact",
+      "heading": "Let's build something worthwhile.",
+      "availabilityFallback": "Open to thoughtful conversations about data, products and technology.",
+      "emailLabel": "EMAIL",
+      "copy": "Copy",
+      "locationLabel": "LOCATION",
+      "localTimeLabel": "LOCAL TIME",
+      "floatingCtaFallback": "Let's talk"
+    },
+    "footer": {
+      "kicker": "Stay in the loop",
+      "editorialPhrase": "bronze light",
+      "copyrightPrefix": "©",
+      "backToTop": "Back to top",
+      "signature": "Coffee black, bronze light"
+    },
+    "telemetry": {
+      "clockFallback": "--:--"
+    },
+    "preloader": {
+      "words": ["Research", "Building", "Refining", "Shipping"],
+      "signature": "DIVYANSH GARG — PORTFOLIO",
+      "countFallback": "000"
+    },
+    "terminal": {
+      "button": "Open terminal",
+      "shortcut": "`",
+      "dialogLabel": "Portfolio terminal",
+      "barUser": "visitor@divyansh:~",
+      "escapeHint": "ESC to close",
+      "initialLine": "Interactive portfolio terminal. Type help to see available commands.",
+      "promptPrefix": "visitor@divyansh:~$ ",
+      "helpHeading": "available commands:",
+      "commandList": "help · about · projects · skills · experience · education · achievements · contact · socials · clear · exit",
+      "noProjects": "No published projects yet.",
+      "noSkills": "No skills published yet.",
+      "noExperience": "No experience published yet.",
+      "noEducation": "No education published yet.",
+      "achievementsAnswer": "Certificates are listed in the Certifications section; other achievements are in Achievements.",
+      "emailPrefix": "Email: ",
+      "contactHint": "Use the copy-email button or reach out on a linked social platform.",
+      "noSocials": "No social links published yet.",
+      "mentorAnswer": "Mentorship is not enabled in this portfolio.",
+      "hireAnswer": "Permission denied — but collaboration is welcome. Use the contact command.",
+      "commandNotFoundPrefix": "command not found: ",
+      "commandNotFoundSuffix": ". Type help.",
+      "inputLabel": "Terminal command",
+      "placeholder": "type help",
+      "reducedMotionPlaceholder": "type a command",
+      "promptGlyph": "❯",
+      "submitGlyph": "↵",
+      "commands": [
+        "help",
+        "about",
+        "projects",
+        "skills",
+        "experience",
+        "education",
+        "achievements",
+        "contact",
+        "socials",
+        "clear",
+        "exit"
+      ]
+    }
+  },
+  "approach": [
+    {
+      "id": "frame",
+      "title": "Frame the question",
+      "source": "FROM THE PROFILE",
+      "body": "Exploring the intersection of data, business and technology."
+    },
+    {
+      "id": "evidence",
+      "title": "Follow the evidence",
+      "source": "RESEARCH INTERN, VLED LAB · IIT ROPAR",
+      "body": "Research focus: Data preparation, Experimental analysis."
+    },
+    {
+      "id": "build",
+      "title": "Build in the open",
+      "source": "FROM CYNORVA",
+      "body": "A co-founded initiative exploring digital products and data-backed business services."
+    },
+    {
+      "id": "explore",
+      "title": "Keep exploring",
+      "source": "CURRENTLY LEARNING",
+      "body": "I am an undergraduate student at IIT Madras, pursuing a BS in Management and Data Science. My work explores how analytical thinking and technology can support better decisions and stronger products."
+    }
+  ],
+  "community": {
+    "heading": "Curiosity is a practice.",
+    "kicker": "(09) — Currently exploring",
+    "notice": "Community statistics and video tabs are omitted until verified metrics and links are supplied.",
+    "learningLabel": "CURRENTLY LEARNING"
+  }
+}
