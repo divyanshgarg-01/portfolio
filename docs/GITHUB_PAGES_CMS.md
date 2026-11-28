@@ -102,7 +102,9 @@ server-side features of a hosted database CMS:
 
 ## Local development
 
-Decap CMS can be exercised locally by running the Vite dev server with the app
-base `/portfolio/` and allowing `http://localhost:3000` through the Worker's
-`ALLOWED_ORIGINS`. Production behaviour, however, should always be verified on
-the deployed Pages URL, including the OAuth callback and artifact deploy.
+Decap CMS can be exercised locally by running the Vite dev server (`npm run dev`,
+`http://localhost:5173`) or preview server (`npm run preview`,
+`http://127.0.0.1:4173`) with the app base `/portfolio/`. If you are using the
+production OAuth Worker, allow the exact local origin through its
+`ALLOWED_ORIGINS` secret. Production behaviour should always be verified on the
+deployed Pages URL, including the OAuth callback and artifact deploy.

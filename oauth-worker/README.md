@@ -52,8 +52,11 @@ Example for an additional local development origin:
 
 ```bash
 wrangler secret put ALLOWED_ORIGINS
-# http://localhost:3000
+# http://localhost:5173 http://127.0.0.1:4173
 ```
+
+Use the exact origin printed by `npm run dev` or `npm run preview`; do not add a
+wildcard origin.
 
 Never put credentials in `wrangler.toml`, source files or chat messages. Use
 `wrangler secret put` so they are encrypted in the Worker environment.

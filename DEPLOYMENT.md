@@ -1,6 +1,8 @@
 # Deployment guide — Supabase + Vercel
 
-This guide replaces the earlier static GitHub Pages/Decap plan. The approved application is a Next.js 15 App Router site with a Supabase-backed CMS. **Nothing in this handover has been deployed publicly, and local verification does not establish deployment readiness.** Production readiness requires passing Supabase integration tests (Auth/MFA, RLS role boundaries, Storage, revalidation and a hosted production-build smoke test). External accounts, credentials, paid resources and production deployment require the owner's explicit approval and access.
+> **Repository layout note:** this guide documents the preserved Next.js/Supabase implementation in `Divyansh Garg GitHub website/`. The currently deployed site is the static GitHub Pages/Decap implementation built from the repository root; its workflow and CMS setup are documented in [`.github/workflows/deploy.yml`](./.github/workflows/deploy.yml) and [`docs/GITHUB_PAGES_CMS.md`](./docs/GITHUB_PAGES_CMS.md).
+
+This handover describes a Next.js 15 App Router site with a Supabase-backed CMS. **Nothing in this Supabase/Vercel handover has been deployed publicly, and local verification does not establish deployment readiness.** Production readiness requires passing Supabase integration tests (Auth/MFA, RLS role boundaries, Storage, revalidation and a hosted production-build smoke test). External accounts, credentials, paid resources and production deployment require the owner's explicit approval and access.
 
 ---
 

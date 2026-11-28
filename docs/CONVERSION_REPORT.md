@@ -1,8 +1,8 @@
 # Static GitHub Pages conversion — Stage 1/2 report
 
-**Status:** implemented and locally verified. **Not deployed, merged, pushed, or published.** No live CMS changes were made.
+**Status:** implemented, locally verified, merged to `origin/main` and deployed through GitHub Actions. No live CMS content changes have been published. Sign-in remains owner-gated until the OAuth Worker and GitHub OAuth App are deployed with the owner's credentials.
 
-Work was performed only in the isolated `gh-pages-baseline` worktree. The untouched master app remains in `Divyansh Garg GitHub website/` at commit `dbefe5d8eb59371552df708e17284542d2b81228`.
+Conversion work was performed in the isolated `gh-pages-baseline` worktree. The untouched master app remains in `Divyansh Garg GitHub website/` at commit `dbefe5d8eb59371552df708e17284542d2b81228`.
 
 ## What was built
 
@@ -55,14 +55,19 @@ Larger deltas and their investigation result:
 
 No static-only DOM mismatch, missing section, changed visible label, broken asset or console error was found. Pixel parity is therefore demonstrated for settled states; **transient animation frames are not claimed to be pixel-identical** because the source itself is random and timing-dependent.
 
-## Remaining work before any deployment
+## Deployment and remaining owner-gated work
 
-These require explicit approval:
+Completed after this report was first written:
 
-1. Configure the repository's Pages source as **GitHub Actions** (live Pages API previously returned 404 and `/portfolio/admin/` was still 404).
-2. Deploy `oauth-worker/worker.js`, set `GITHUB_CLIENT_ID`/`GITHUB_CLIENT_SECRET`, and register the OAuth App callback.
-3. Merge `gh-pages-baseline` into `main` (or open the PR) only after sign-off. No commit, push or merge has been performed here.
-4. Verify the deployed OAuth round trip and a CMS draft→PR→publish cycle with a test account that has write access.
+1. Repository Pages source was set to **GitHub Actions**; the workflow deploys `dist` on pushes to `main`.
+2. PRs #1–#3 were merged into `main`; the live public site, `/portfolio/admin/`, CMS config and CV all return `200`.
+3. The Hero underline/celestial canvas regression was fixed for the client-only Vite mount, including reduced motion.
+
+Still requiring explicit owner action:
+
+1. Deploy `oauth-worker/worker.js`, set `GITHUB_CLIENT_ID`/`GITHUB_CLIENT_SECRET`, and register the OAuth App callback exactly as described in `oauth-worker/README.md`.
+2. Confirm `GET https://divyansh-portfolio-oauth.workers.dev/health` reports `configured: true`.
+3. Verify the deployed OAuth round trip and a CMS draft→PR→publish cycle with the repository owner account.
 
 ## Static-platform limitations (unchanged)
 
